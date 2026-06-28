@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://evolvia-health.vercel.app/sitemap.xml
+Sitemap: https://evolviahealth.github.io/sitemap.xml

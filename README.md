@@ -4,7 +4,7 @@ Site vitrine du cabinet de conseil **EvolvIA Health** (intelligence artificielle
 appliquée à la santé et à l'industrie pharmaceutique). Site multilingue (5 langues),
 calendrier de prise de rendez-vous, formulaire de contact, actualités, pages légales.
 
-> **Adresse de production :** https://evolvia-health.vercel.app
+> **Adresse de production :** https://evolviahealth.github.io
 
 ---
 

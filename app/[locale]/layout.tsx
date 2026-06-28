@@ -12,7 +12,7 @@ import { AnimatedBackground } from '@/components/layout/AnimatedBackground';
 import { ScrollProgress } from '@/components/providers/ScrollProgress';
 import { Chatbot } from '@/components/chatbot/Chatbot';
 
-const SITE_URL = 'https://evolvia-health.vercel.app';
+const SITE_URL = 'https://evolviahealth.github.io';
 
 // Pré-génère les routes des 5 locales au build pour l'export statique
 export function generateStaticParams() {
