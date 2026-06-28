@@ -1,0 +1,469 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "useCases": "Use cases",
+    "approach": "Approach",
+    "founder": "Founder",
+    "insights": "News",
+    "testimonials": "Testimonials",
+    "clients": "Clients",
+    "contact": "Book a meeting",
+    "homeAria": "EvolvIA Health, home",
+    "langAria": "Language selection"
+  },
+  "hero": {
+    "eyebrow": "AI consulting for healthcare and pharma",
+    "title": ["Making artificial", "intelligence", "tangible in healthcare"],
+    "subtitle": "EvolvIA Health helps pharmaceutical labs, hospitals and healthtech adopt artificial intelligence, strategically and operationally. AI that is useful, understandable and grounded in the realities of the field.",
+    "ctaApproach": "Discover our approach",
+    "ctaBooking": "Book a meeting",
+    "scroll": "Scroll"
+  },
+  "trust": {
+    "label": "Moving forward with us",
+    "title": "Healthcare and pharma are embracing AI. We make it concrete",
+    "stats": [
+      { "value": "100%", "label": "European hosting, GDPR compliant" },
+      { "value": "3", "label": "Sectors served: pharma, hospital, healthtech" },
+      { "value": "5×", "label": "Target acceleration on documentary tasks" },
+      { "value": "2026", "label": "Year the firm was founded" }
+    ],
+    "partnersLabel": "Serving the players of pharmaceutical and digital health"
+  },
+  "manifesto": {
+    "label": "Our conviction",
+    "text": "AI in healthcare is not a technological promise. It is a field discipline, serving the caregiver, the patient and the decision."
+  },
+  "services": {
+    "label": "Services",
+    "title": "Four levers to turn AI into an operational advantage"
+  },
+  "useCases": {
+    "label": "Activities",
+    "hint": "Scroll to explore",
+    "items": [
+      { "tag": "Strategic consulting", "title": "Frame a credible AI strategy, from POC to industrialization.", "body": "For pharmaceutical labs and healthtech startups ready to move beyond experimentation. Roadmap, governance, prioritization of high-impact use cases." },
+      { "tag": "Custom AI agents", "title": "Design AI agents that are useful, understandable and embedded in the field.", "body": "Intelligent assistants calibrated to your protocols, data and workflows. No tech magic — measurable usefulness serving healthcare professionals." },
+      { "tag": "Generative AI training", "title": "Train your teams in the business uses of generative AI.", "body": "Programs tailored for healthcare professionals. Concrete uses, critical mindset, data hygiene. From awareness to operational mastery." },
+      { "tag": "Change management", "title": "Transform organizations sustainably, by and with AI.", "body": "Adoption, continuous use-case exploration, impact measurement. AI changes nothing without a solid human and operational framework." }
+    ]
+  },
+  "capabilities": {
+    "label": "AI capabilities, state of the art 2026",
+    "title": "What AI can do for healthcare",
+    "subtitle": "An honest map: what works today, what is emerging, what does not work yet.",
+    "items": [
+      { "num": "01", "status": "Mature", "title": "Medical RAG", "desc": "Synthesis of scientific corpora in seconds. Mature, deployable today." },
+      { "num": "02", "status": "Emerging", "title": "Autonomous agents", "desc": "Orchestrated multi-step workflows. Emerging, with supervised use cases." },
+      { "num": "03", "status": "Rising", "title": "Multimodal", "desc": "Medical imaging, text and voice combined. Very promising in R&D, to validate case by case." },
+      { "num": "04", "status": "Supervised", "title": "Reasoning", "desc": "Explainable reasoning on diagnoses. For copilot use, never autonomous." },
+      { "num": "05", "status": "Case-by-case", "title": "Fine-tuning", "desc": "Specialisation on your data. ROI often lower than a well-designed RAG." },
+      { "num": "06", "status": "Mature", "title": "Generation", "desc": "Reports, monographs, training. Well adopted with human validation." }
+    ]
+  },
+  "numbers": {
+    "label": "By the numbers",
+    "title": "One promise, four dimensions",
+    "items": [
+      { "value": "+40%", "label": "Target team productivity on medical RAG use cases" },
+      { "value": "5×", "label": "Documentary processing speed" },
+      { "value": "100%", "label": "European hosting, designed for GDPR" },
+      { "value": "0", "label": "Compromise on data sovereignty" }
+    ]
+  },
+  "versus": {
+    "label": "Before, after",
+    "title": "The measurable delta",
+    "subtitle": "Illustrative sector example: scientific literature review for a pharma medical department. Figures drawn from comparable projects, to be recalibrated to your use case.",
+    "before": {
+      "tag": "Before: traditional process",
+      "headline": "3 days / file",
+      "steps": [
+        "Step 1. Manual PubMed search (4h)",
+        "Step 2. Reading and selecting publications (12h)",
+        "Step 3. Manual clinical entity extraction (4h)",
+        "Step 4. Writing the synthesis (4h)"
+      ],
+      "total": "Total: around 24h, fragile ROI"
+    },
+    "after": {
+      "tag": "After: EvolvIA agent",
+      "headline": "4 hours / file",
+      "steps": [
+        "Step 1. Medical RAG on proprietary corpus (12s)",
+        "Step 2. Assisted multi-criteria selection (45min)",
+        "Step 3. Automatic structured extraction (1s)",
+        "Step 4. Generated synthesis then human review (3h)"
+      ],
+      "total": "Total: around 4h, 6× faster"
+    },
+    "disclaimer": "These orders of magnitude illustrate a potential gain. The real result depends on your scope, your data and your regulatory constraints.",
+    "cta": "Estimate your potential gain"
+  },
+  "marquee": {
+    "label": "What we stand for",
+    "items": ["Sovereignty", "Scientific rigour", "Confidentiality", "Lasting adoption", "Compliance", "Transparency", "Operational excellence"]
+  },
+  "band": {
+    "quote": "Making artificial intelligence a lever of elevation for healthcare."
+  },
+  "testimonials": {
+    "label": "What people say",
+    "title": "Those who recommend us",
+    "subtitle": "Experiences from healthcare and pharma decision-makers who have worked with us.",
+    "items": [
+      {
+        "quote": "An approach that blends scientific rigour with operational pragmatism. Rare in AI consulting.",
+        "name": "Head of Innovation",
+        "role": "European pharmaceutical lab",
+        "photo": "/images/physician.jpg"
+      },
+      {
+        "quote": "Finally a partner who speaks both the language of data and the clinical field. Our teams adopted the tool within weeks.",
+        "name": "Medical Affairs Lead",
+        "role": "Pharmaceutical industry",
+        "photo": "/images/handshake.jpg"
+      },
+      {
+        "quote": "Clear framing, concrete deliverables, zero black box. We know exactly what the AI does and why.",
+        "name": "Head of Transformation",
+        "role": "Hospital group",
+        "photo": "/images/founder-portrait.jpg"
+      }
+    ],
+    "editNote": "Testimonials to be completed with Cassiopée."
+  },
+  "news": {
+    "label": "Live news",
+    "title": "Healthcare and pharma in the age of AI",
+    "subtitle": "Continuous monitoring of artificial intelligence, digital health and the pharmaceutical industry.",
+    "viewAll": "See all news",
+    "sourceLabel": "Source",
+    "loading": "Loading the latest news…",
+    "errorNote": "Feed momentarily unavailable. Here is a recent selection.",
+    "fallback": [
+      {
+        "title": "Generative AI accelerates pharmaceutical research",
+        "source": "Digital health watch",
+        "summary": "Labs integrate language models for documentary synthesis and pharmacovigilance.",
+        "image": "/images/lab-research.jpg"
+      },
+      {
+        "title": "Hospitals: AI in service of medical time",
+        "source": "Digital health watch",
+        "summary": "Assisted reports and decision support free up clinical time for caregivers.",
+        "image": "/images/digital-health.jpg"
+      },
+      {
+        "title": "Health data sovereignty in Europe",
+        "source": "Digital health watch",
+        "summary": "European hosting and GDPR compliance become decisive criteria for AI projects.",
+        "image": "/images/hospital-atrium.jpg"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Book a meeting",
+    "titleLine1": "Let's talk about",
+    "titleLine2": "your project",
+    "intro1": "A project, a question, a need for framing or a",
+    "intro2": "free quote",
+    "intro3": ". Pick a slot, we confirm by email with a video meeting link.",
+    "emailLabel": "Direct email",
+    "calendlyLabel": "30-minute meeting",
+    "calendlyCta": "See availability",
+    "calendlyNote": "30 minutes to frame your need. No commitment.",
+    "privacyLabel": "Privacy",
+    "privacyText": "Minimal and secure storage of messages, in line with GDPR. No sharing with third parties. Kept 12 months maximum.",
+    "formLabel": "Your details and your need"
+  },
+  "ecosystem": {
+    "label": "Ecosystem",
+    "title": "The healthcare players we work alongside",
+    "subtitle": "From the lab to the hospital, we speak the language of every health and pharma profession.",
+    "items": [
+      { "name": "Pharmaceutical industry" },
+      { "name": "Biotechnology" },
+      { "name": "Hospitals & clinics" },
+      { "name": "Medtech & devices" },
+      { "name": "Digital health" },
+      { "name": "Insurance & mutuals" }
+    ]
+  },
+  "booking": {
+    "calNote": "Live calendar",
+    "calSoon": "The live booking calendar appears here as soon as the account is connected: you pick a genuinely free slot and instantly get an email confirmation with the video link. In the meantime, write to us below — reply within 24 h.",
+    "calSoonCta": "Write to us",
+    "eyebrow": "Book a meeting",
+    "title": "Book a conversation",
+    "subtitle": "Leave your details, tell us what you need, and pick a slot. You instantly receive a confirmation email with the Google Meet link.",
+    "stepContact": "Your details",
+    "stepNeed": "Your need",
+    "stepSlot": "Your slot",
+    "needOptions": {
+      "devis": "Get a free quote",
+      "conseil": "Strategic AI consulting",
+      "agents": "Design a custom AI agent",
+      "formation": "Train my teams on AI",
+      "autre": "Other topic"
+    },
+    "slotLegendFree": "Available",
+    "slotLegendTaken": "Booked",
+    "slotMorning": "Morning",
+    "slotAfternoon": "Afternoon",
+    "messageOptional": "Message (optional)",
+    "noSlot": "Select an available slot",
+    "confirmCta": "Confirm the meeting",
+    "submitting": "Confirming…",
+    "successLabel": "Meeting confirmed",
+    "successTitle": "All set, thank you",
+    "successText": "You will receive a confirmation email with the Google Meet link. See you soon.",
+    "meetNote": "A Google Meet link is generated automatically and attached to the confirmation email.",
+    "errorMessage": "Something went wrong. Try again or email us directly."
+  },
+  "comingSoon": {
+    "statusBadge": "",
+    "defaultDescription": "For any request, contact us directly.",
+    "backHome": "Back to home",
+    "contactUs": "Book a meeting"
+  },
+  "pages": {
+    "about": {
+      "metaTitle": "About",
+      "eyebrow": "About, since 2026",
+      "title": "A conviction turned into a firm",
+      "subtitle": "EvolvIA Health was born from the insight that AI will only create value in healthcare if it is designed by those who understand its field complexity.",
+      "missionLabel": "Mission",
+      "missionTitle": "Supporting the concrete integration of AI in healthcare",
+      "missionText": "Improving operational performance, decision-making, team productivity and responsible innovation. That is the mandate we set ourselves with every client.",
+      "visionLabel": "Vision",
+      "visionTitle": "The reference partner for AI transformation in French healthcare",
+      "visionText": "Not the biggest. The most rigorous. The one innovation directors of labs, hospitals and healthtech call when AI becomes strategic.",
+      "valuesLabel": "Our values",
+      "valuesTitle": "Four non-negotiable principles",
+      "values": [
+        { "num": "01", "title": "Useful, not spectacular", "desc": "AI that transforms a workflow beats AI that makes headlines." },
+        { "num": "02", "title": "Sovereignty by design", "desc": "European data, European models where possible. No compromise on confidentiality." },
+        { "num": "03", "title": "Scientific rigour", "desc": "Metrics, evaluations, audits. We measure what we promise." },
+        { "num": "04", "title": "Transmission", "desc": "You always leave more autonomous. That is our best recommendation." }
+      ],
+      "ctaTitle": "Convinced? Let's talk",
+      "ctaButton": "Book a meeting"
+    },
+    "services": {
+      "metaTitle": "Services",
+      "eyebrow": "Services 2026",
+      "title": "Five areas of expertise. One conviction",
+      "subtitle": "From strategic diagnosis to deploying custom AI agents, we cover the entire value chain of adoption.",
+      "items": [
+        {
+          "num": "01",
+          "category": "Strategic consulting",
+          "title": "Defining your AI trajectory",
+          "desc": "AI maturity diagnosis, mapping of high-value use cases, multi-year roadmap. A clear vision before the first technical pilot.",
+          "deliverables": ["AI maturity audit in 4 weeks", "Mapping of priority use cases", "12 to 36 month roadmap", "Business case and projected ROI"]
+        },
+        {
+          "num": "02",
+          "category": "Custom AI agents",
+          "title": "Specialised assistants",
+          "desc": "Design and deployment of AI agents trained on your proprietary data and integrated into your business workflows, from prototype to scale.",
+          "deliverables": ["Medical RAG on proprietary corpus", "HDS-compatible documentary assistants", "Multi-model (OpenAI, Anthropic, Mistral)", "European hosting, on-premise possible"]
+        },
+        {
+          "num": "03",
+          "category": "Generative AI training",
+          "title": "Building skills",
+          "desc": "Tailored programmes for your medical, R&D and operational teams. From awareness to advanced prompt engineering.",
+          "deliverables": ["Executive sessions (3h, leadership team)", "Business bootcamp (2 days)", "Train-the-trainer programmes", "Internal certifications"]
+        },
+        {
+          "num": "04",
+          "category": "Change management",
+          "title": "Lasting adoption",
+          "desc": "AI only succeeds if teams adopt it. Change management, alignment, internal communication to turn a POC into a standard.",
+          "deliverables": ["Mapping of resistance", "Internal communication plan", "AI ambassadors", "Adoption measurement (NPS, usage)"]
+        },
+        {
+          "num": "05",
+          "category": "Innovation and use cases",
+          "title": "Exploring the frontiers",
+          "desc": "Technology watch, exploration of emerging use cases, design fiction workshops. Preparing tomorrow by integrating today's building blocks.",
+          "deliverables": ["Autonomous agents for R&D", "Multimodal models (medical imaging, text, voice)", "AI in healthcare foresight workshops", "Personalised weekly watch"]
+        }
+      ],
+      "ctaTitle": "An expertise for your need?",
+      "ctaSubtitle": "Describe your project. We propose a structured approach within 48h.",
+      "ctaButton": "Book a meeting"
+    },
+    "useCases": {
+      "metaTitle": "Use cases",
+      "eyebrow": "Use cases",
+      "title": "Where AI makes the difference",
+      "subtitle": "Concrete examples of transformations led by EvolvIA Health, anonymised to respect our clients' confidentiality.",
+      "items": [
+        {
+          "tag": "Pharma, Top 10 lab",
+          "title": "Documentary review accelerated 5×",
+          "desc": "A medical RAG set up on 12,000 proprietary scientific publications. Medical teams obtain clinical syntheses in seconds instead of hours.",
+          "stats": [
+            { "label": "Duration", "value": "6 wks" },
+            { "label": "Models", "value": "Anthropic + Mistral" },
+            { "label": "Adoption", "value": "86%" }
+          ]
+        },
+        {
+          "tag": "Hospital, regional teaching hospital",
+          "title": "Automated medical reports",
+          "desc": "An assistant integrated into the hospital information system that generates a first draft of consultation report from voice notes. Doctors keep 100% control and save administrative time.",
+          "stats": [
+            { "label": "Hosting", "value": "HDS" },
+            { "label": "Pilot service", "value": "Cardiology" },
+            { "label": "Time saved", "value": "40%" }
+          ]
+        },
+        {
+          "tag": "Healthtech, series A",
+          "title": "Medical RAG pilot in 4 weeks",
+          "desc": "An internal assistant trained on proprietary documentation, deployed for sales teams. Onboarding 2× faster, measurably higher client answer quality.",
+          "stats": [
+            { "label": "Budget", "value": "< 50K€" },
+            { "label": "Users", "value": "35" },
+            { "label": "Adoption NPS", "value": "+62" }
+          ]
+        }
+      ],
+      "ctaTitle": "And your case?",
+      "ctaSubtitle": "Every organisation has its specifics. Let's discuss yours.",
+      "ctaButton": "Book a meeting"
+    },
+    "approach": {
+      "metaTitle": "Our approach",
+      "eyebrow": "Our approach",
+      "title": "From strategic brief to deployment",
+      "subtitle": "Five structured phases. Clear deliverables at each milestone. No black box: you stay in control at every step.",
+      "phases": [
+        { "num": "01", "title": "Strategic framing", "desc": "Discovery workshop (1h30). In-depth competitive benchmark. Mapping of priority use cases. Definition of personas and target. Validation of regulatory constraints.", "week": "Week 1" },
+        { "num": "02", "title": "Architecture and technical framing", "desc": "Definition of target architecture. Choice of foundation models (OpenAI, Anthropic, Mistral, local models). Data sovereignty framing. HDS validation if applicable.", "week": "Weeks 1 and 2" },
+        { "num": "03", "title": "Design", "desc": "Interactive prototypes. User experience design. Integration into business workflows. Qualitative testing with target users.", "week": "Weeks 2 and 3" },
+        { "num": "04", "title": "Development and iterations", "desc": "Agile build in one-week sprints. Weekly user testing. Integration with existing systems. Hardening and load testing.", "week": "Weeks 4 and 5" },
+        { "num": "05", "title": "Launch and transmission", "desc": "Progressive deployment. Team training. Comprehensive documentation. 4-week post-delivery hotline included.", "week": "Week 6" }
+      ],
+      "checkpointsLabel": "Three validation milestones",
+      "checkpoints": [
+        { "tag": "Milestone W1", "title": "Strategic brief validated", "desc": "You approve or decline. No next phase before alignment." },
+        { "tag": "Milestone W3", "title": "Prototypes validated", "desc": "Functional demonstration. Adjustments before the build." },
+        { "tag": "Milestone W6", "title": "Go live", "desc": "Deployment, training, full transmission." }
+      ],
+      "ctaLead": "You have seen how we work.",
+      "ctaTitle": "Let's build your next AI agent together",
+      "ctaSubtitle": "Book a meeting with our experts, or request a free quote. Reply within 48 business hours.",
+      "ctaButton": "Book a meeting",
+      "ctaButtonSecondary": "Request a free quote"
+    },
+    "insights": {
+      "metaTitle": "News",
+      "eyebrow": "News",
+      "title": "Healthcare and pharma in the age of AI",
+      "subtitle": "Continuous monitoring and our perspective on artificial intelligence, digital health and the pharmaceutical industry.",
+      "categories": [
+        { "label": "AI strategy", "count": "Watch" },
+        { "label": "Use cases", "count": "Analyses" },
+        { "label": "Regulatory", "count": "Briefings" },
+        { "label": "Tech and sovereignty", "count": "Articles" }
+      ],
+      "comingNote": "Our next analysis, \"Medical RAG: why 80% of projects still fail\", is coming in the next few weeks.",
+      "subscribeLabel": "Receive our publications",
+      "subscribeCta": "Book a meeting"
+    },
+    "clients": {
+      "metaTitle": "Clients",
+      "eyebrow": "They trust us",
+      "title": "Discretion by default",
+      "subtitle": "EvolvIA Health works with pharmaceutical labs, hospitals and healthtech. Out of respect for their strategic roadmaps, we only publish a reference with their written agreement.",
+      "sectorsLabel": "Sectors served",
+      "sectors": [
+        { "name": "Pharmaceutical industry", "desc": "Medical affairs, R&D, pharmacovigilance, market access." },
+        { "name": "Hospitals and teaching hospitals", "desc": "Medical management, clinical services, hospital research." },
+        { "name": "Healthtech and medical devices", "desc": "Series A to series C start-ups, MedTech manufacturers." },
+        { "name": "Public bodies and associations", "desc": "Regional health agencies, learned societies, foundations." }
+      ],
+      "testimonialQuote": "An approach that blends scientific rigour with operational pragmatism. Rare in AI consulting.",
+      "testimonialAttribution": "Head of Innovation, European pharmaceutical lab",
+      "ctaTitle": "Want to be part of it?",
+      "ctaButton": "Book a meeting"
+    },
+    "founder": {
+      "metaTitle": "Founder & Prometheus",
+      "metaDescription": "EvolvIA Health was born from field experience in pharmaceutical consulting. Discover the vision, the journey and Prometheus, our proprietary AI agent.",
+      "eyebrow": "Founder",
+      "title": "A vision, a firm, an agent",
+      "subtitle": "EvolvIA Health was born from experience in digital transformation consulting in the pharmaceutical industry, with a strong conviction: AI must be useful, understandable and grounded in the realities of the field.",
+      "founderEyebrow": "Founder & CEO",
+      "founderHeading": "From pharma consulting to applied AI",
+      "founderBio": "After several years in digital transformation in the pharmaceutical industry, the founder of EvolvIA Health created this firm to bridge the gap between the promise of AI and its real adoption in the field. Her conviction: no AI transformation succeeds without a fine understanding of the clinical, regulatory and human constraints of the healthcare sector.",
+      "photoAlt": "Portrait of the founder of EvolvIA Health",
+      "schoolNote": "Admitted to a leading business school, specialising in healthcare and strategy.",
+      "growthNote": "The firm intends to surround itself with healthcare and data experts to grow alongside its clients.",
+      "timeline": [
+        { "period": "2026, today", "title": "Founder & CEO, EvolvIA Health", "desc": "Creation of the firm. Supporting pharma labs and hospitals in the strategic adoption of generative AI and autonomous agents." },
+        { "period": "2020 to 2025", "title": "Senior consultant, pharma digital transformation", "desc": "Leading digital and data transformation projects within consulting firms. Progressive specialisation on AI topics." },
+        { "period": "Education", "title": "Leading business school, healthcare specialisation", "desc": "Management education, complemented by sector expertise in the pharmaceutical and hospital industry." }
+      ],
+      "prometheeLabPretitle": "Prometheus, a proprietary AI agent",
+      "prometheeLabTitle": "Our internal R&D ground",
+      "prometheeLabText": "Prometheus is the AI agent we develop internally to experiment, test and harden the patterns we propose to our clients. Not a commercial product, but a living lab that guarantees we know what we are talking about.",
+      "prometheeLabQuote": "Prometheus is our guarantee that we never recommend what we have not tested ourselves."
+    }
+  },
+  "contactForm": {
+    "name": "Full name *",
+    "namePlaceholder": "Marie Dupont",
+    "email": "Work email *",
+    "emailPlaceholder": "marie@lab.com",
+    "org": "Organisation",
+    "orgPlaceholder": "Organisation name",
+    "topic": "Your need",
+    "topicSelect": "Select",
+    "topicOptions": {
+      "devis": "Get a free quote",
+      "conseil": "Strategic AI consulting",
+      "agents": "Custom AI agent",
+      "formation": "Generative AI training",
+      "change": "Change management",
+      "autre": "Other"
+    },
+    "message": "Your message *",
+    "messagePlaceholder": "Describe your need in a few words…",
+    "rgpd": "I agree that my data may be used to respond to my request, in line with the privacy policy. No data is shared with third parties.",
+    "submit": "Send my request",
+    "submitting": "Sending…",
+    "errorMessage": "Something went wrong. Try again or email us directly.",
+    "successLabel": "Message received",
+    "successTitle": "Thank you",
+    "successText": "We will get back to you within 48 business hours. See you soon."
+  },
+  "promethee": {
+    "label": "Prometheus",
+    "title": "The proprietary AI agent of EvolvIA Health",
+    "description": "Built for the realities of the field in healthcare. A concrete demonstration of our conviction: AI must be useful, understandable and integrated.",
+    "status": "In development",
+    "cta": "Discover Prometheus",
+    "extraNote": "Prometheus is our living lab: we internally test the patterns we recommend to clients, so we never advise what we have not experienced ourselves."
+  },
+  "footer": {
+    "tagline": "Making artificial intelligence tangible in healthcare.",
+    "cta": "Book a meeting",
+    "exploreTitle": "Explore",
+    "moreTitle": "The firm",
+    "contactTitle": "Contact",
+    "contactNote": "AI consulting firm for healthcare and pharma. Reply within 48 business hours.",
+    "rights": "All rights reserved",
+    "madeIn": "Designed in France, European hosting"
+  },
+  "meta": {
+    "defaultTitle": "EvolvIA Health, AI & Healthcare",
+    "description": "Premium consulting firm for the strategic and operational adoption of artificial intelligence in healthcare and the pharmaceutical industry."
+  }
+}

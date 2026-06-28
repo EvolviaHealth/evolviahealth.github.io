@@ -1,0 +1,275 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply bg-canvas text-ink-900 antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Corps de texte plus généreux par défaut (Cassiopée : agrandir, lisibilité) */
+  body {
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+
+  html.lenis, html.lenis body {
+    height: auto;
+  }
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+
+  ::selection {
+    background: theme('colors.teal.500');
+    color: #ffffff;
+  }
+
+  /* Focus visible accessible (sérieux = crédibilité pharma) */
+  :focus-visible {
+    outline: 2px solid theme('colors.teal.500');
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  .container-fluid {
+    @apply max-w-[1600px] mx-auto px-6 md:px-12 lg:px-20;
+  }
+  /* Conteneur éditorial plus resserré pour le texte long */
+  .container-prose {
+    @apply max-w-content mx-auto px-6 md:px-12 lg:px-20;
+  }
+  /* Label « eyebrow » — petites capitales tracées, SANS aucun tiret décoratif */
+  .eyebrow {
+    @apply inline-flex items-center text-xs uppercase tracking-[0.22em] font-medium;
+  }
+  /* Tirets décoratifs supprimés partout (demande Cassiopée) */
+  .eyebrow-rule {
+    display: none;
+  }
+}
+
+/* ─── Reveal mot-par-mot (RevealText) ─────────────────────────────────────
+   Sûr par défaut : sans la classe .reveal-ready (posée par le JS), le texte
+   reste visible. L'animation ne joue que si le JS est vivant. */
+@keyframes reveal-word-rise {
+  from { opacity: 0; transform: translateY(0.55em); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.reveal-text .reveal-word { opacity: 1; }
+.reveal-text.reveal-ready .reveal-word {
+  animation: reveal-word-rise 0.65s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: var(--rd, 0s);
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal-text.reveal-ready .reveal-word { animation: none; }
+}
+
+@layer utilities {
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  @keyframes softFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+  .animate-soft-float {
+    animation: softFloat 6s ease-in-out infinite;
+  }
+
+  /* Voile de lisibilité sur images (texte par-dessus photo) */
+  .img-veil {
+    background: linear-gradient(180deg, rgba(12,30,34,0.05) 0%, rgba(12,30,34,0.45) 100%);
+  }
+
+  /* Lien de navigation : souligné animé gauche→droite au survol */
+  .nav-link {
+    position: relative;
+  }
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 100%;
+    background: theme('colors.teal.500');
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  /* Zoom doux d'image au survol (cartes, vignettes) */
+  .img-zoom img {
+    transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .img-zoom:hover img {
+    transform: scale(1.05);
+  }
+
+  /* ── Vie organique ──────────────────────────────────────────────────── */
+
+  /* Fondu doux des sections à l'entrée du viewport (scroll-driven CSS).
+     Opacity uniquement : aucun conflit avec les transforms GSAP (section
+     épinglée incluse). Progressive enhancement : ignoré si non supporté. */
+  @supports (animation-timeline: view()) {
+    @media (prefers-reduced-motion: no-preference) {
+      main > section {
+        animation: section-fade linear both;
+        animation-timeline: view();
+        animation-range: entry 0% entry 45%;
+      }
+    }
+  }
+
+  /* Particules organiques (pollen de lumière) qui montent lentement */
+  .particle {
+    position: absolute;
+    bottom: -4vh;
+    border-radius: 9999px;
+    pointer-events: none;
+    animation: drift-up var(--pd, 30s) linear infinite;
+    animation-delay: var(--pdelay, 0s);
+    will-change: transform, opacity;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .particle { animation: none; opacity: 0; }
+  }
+
+  /* Blob organique : forme naturelle qui se déforme doucement */
+  .blob-soft {
+    animation: blob-morph 16s ease-in-out infinite alternate;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .blob-soft { animation: none; }
+  }
+
+  /* Reflet lumineux qui traverse les boutons au survol */
+  .btn-shine {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -70%;
+    width: 50%;
+    background: linear-gradient(105deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+    transform: skewX(-20deg);
+    transition: left 0.7s ease;
+    pointer-events: none;
+  }
+  .group:hover .btn-shine {
+    left: 120%;
+  }
+
+  @keyframes section-fade {
+    from { opacity: 0.15; }
+    to   { opacity: 1; }
+  }
+
+  @keyframes drift-up {
+    0%   { transform: translateY(8vh) translateX(0) scale(0.9); opacity: 0; }
+    12%  { opacity: var(--po, 0.5); }
+    88%  { opacity: var(--po, 0.5); }
+    100% { transform: translateY(-108vh) translateX(var(--px, 2vw)) scale(1.15); opacity: 0; }
+  }
+
+  @keyframes blob-morph {
+    0%, 100% { border-radius: 58% 42% 55% 45% / 50% 58% 42% 50%; }
+    33%      { border-radius: 45% 55% 48% 52% / 60% 42% 58% 40%; }
+    66%      { border-radius: 52% 48% 60% 40% / 45% 55% 45% 55%; }
+  }
+
+  /* Défilement horizontal des témoignages (pause au survol) */
+  @keyframes testi-scroll {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+  .testi-track {
+    animation: testi-scroll 45s linear infinite;
+  }
+  .testi-wrap:hover .testi-track {
+    animation-play-state: paused;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .testi-track { animation: none; }
+  }
+}
+
+/* ─── Rideau d'entrée de page (auto-effaçant, sûr) ───────────────────────────
+   Voile menthe + logo qui s'efface seul via une animation CSS (fill forwards).
+   pointer-events:none → ne bloque JAMAIS les clics, même pendant le fondu.
+   Aucune dépendance au JS : impossible de figer un écran blanc. */
+.page-reveal {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #EDF6F1 0%, #E7F0F6 100%);
+  animation: page-reveal-out 0.9s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+}
+.page-reveal img {
+  width: clamp(120px, 18vw, 190px);
+  height: auto;
+  animation: page-reveal-mark 0.9s ease forwards;
+}
+@keyframes page-reveal-out {
+  0%, 50% { opacity: 1; }
+  100% { opacity: 0; visibility: hidden; }
+}
+@keyframes page-reveal-mark {
+  0% { opacity: 0; transform: scale(0.94); }
+  35% { opacity: 1; transform: scale(1); }
+  70% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .page-reveal { display: none; }
+}
+
+/* ─── Chatbot guidé ───────────────────────────────────────────────────────
+   Animations 100% CSS (aucune dépendance JS d'anim) → robuste en export
+   statique. Tout est désactivé sous prefers-reduced-motion. */
+@keyframes chat-panel-in {
+  from { opacity: 0; transform: translateY(16px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes chat-bubble-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes chat-nudge-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes chat-dot-blink {
+  0%, 80%, 100% { opacity: 0.25; transform: translateY(0); }
+  40%           { opacity: 1; transform: translateY(-3px); }
+}
+.chat-panel { animation: chat-panel-in 0.34s cubic-bezier(0.16, 1, 0.3, 1) both; transform-origin: bottom right; }
+.chat-in    { animation: chat-bubble-in 0.32s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.chat-nudge { animation: chat-nudge-in 0.4s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.chat-dot   { animation: chat-dot-blink 1.2s ease-in-out infinite; }
+.chat-dot:nth-child(2) { animation-delay: 0.15s; }
+.chat-dot:nth-child(3) { animation-delay: 0.3s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .chat-panel, .chat-in, .chat-nudge, .chat-dot { animation: none; }
+}

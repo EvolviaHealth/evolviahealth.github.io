@@ -1,0 +1,469 @@
+{
+  "nav": {
+    "about": "Über uns",
+    "services": "Leistungen",
+    "useCases": "Anwendungsfälle",
+    "approach": "Vorgehen",
+    "founder": "Gründerin",
+    "insights": "Aktuelles",
+    "testimonials": "Referenzen",
+    "clients": "Kunden",
+    "contact": "Termin vereinbaren",
+    "homeAria": "EvolvIA Health, Startseite",
+    "langAria": "Sprachauswahl"
+  },
+  "hero": {
+    "eyebrow": "KI-Beratung für Gesundheitswesen und Pharma",
+    "title": ["Künstliche Intelligenz", "im Gesundheitswesen", "greifbar machen"],
+    "subtitle": "EvolvIA Health begleitet Pharmaunternehmen, Krankenhäuser und Healthtech bei der strategischen und operativen Einführung künstlicher Intelligenz. Eine KI, die nützlich, verständlich und in die Realität des Arbeitsalltags eingebettet ist.",
+    "ctaApproach": "Unser Vorgehen entdecken",
+    "ctaBooking": "Termin vereinbaren",
+    "scroll": "Scrollen"
+  },
+  "trust": {
+    "label": "Sie gehen mit uns voran",
+    "title": "Gesundheitswesen und Pharma erschließen sich die KI. Wir machen sie konkret",
+    "stats": [
+      { "value": "100%", "label": "Europäisches Hosting, DSGVO-konform" },
+      { "value": "3", "label": "Begleitete Branchen: Pharma, Krankenhaus, Healthtech" },
+      { "value": "5×", "label": "Angestrebte Beschleunigung bei dokumentenbezogenen Aufgaben" },
+      { "value": "2026", "label": "Gründungsjahr der Beratung" }
+    ],
+    "partnersLabel": "Im Dienst der Akteure der pharmazeutischen und digitalen Gesundheit"
+  },
+  "manifesto": {
+    "label": "Unsere Überzeugung",
+    "text": "KI im Gesundheitswesen ist kein technologisches Versprechen. Sie ist eine Praxisdisziplin im Dienst der Pflegekraft, des Patienten und der Entscheidung."
+  },
+  "services": {
+    "label": "Leistungen",
+    "title": "Vier Hebel, um KI in einen operativen Vorteil zu verwandeln"
+  },
+  "useCases": {
+    "label": "Aktivitäten",
+    "hint": "Scrollen Sie, um zu entdecken",
+    "items": [
+      { "tag": "Strategieberatung", "title": "Eine glaubwürdige KI-Strategie definieren – vom POC zur Industrialisierung.", "body": "Für Pharmaunternehmen und Healthtech-Startups, die über das Experimentieren hinauswollen. Roadmap, Governance, Priorisierung wirkungsvoller Anwendungsfälle." },
+      { "tag": "Maßgeschneiderte KI-Agenten", "title": "KI-Agenten entwerfen, die nützlich, verständlich und praxisnah sind.", "body": "Intelligente Assistenten, abgestimmt auf Ihre Protokolle, Daten und Workflows. Keine Tech-Magie – messbarer Nutzen im Dienste der Gesundheitsfachkräfte." },
+      { "tag": "Schulung in generativer KI", "title": "Ihre Teams in den fachlichen Einsatz generativer KI schulen.", "body": "Programme, zugeschnitten auf Gesundheitsfachkräfte. Konkrete Anwendungen, kritische Haltung, Datenhygiene. Von der Sensibilisierung zur operativen Beherrschung." },
+      { "tag": "Change-Management", "title": "Organisationen nachhaltig transformieren – durch und mit KI.", "body": "Akzeptanz, kontinuierliche Erkundung von Anwendungsfällen, Wirkungsmessung. KI verändert nichts ohne soliden menschlichen und operativen Rahmen." }
+    ]
+  },
+  "capabilities": {
+    "label": "KI-Fähigkeiten, Stand der Technik 2026",
+    "title": "Was KI für das Gesundheitswesen leisten kann",
+    "subtitle": "Eine ehrliche Übersicht: Was heute funktioniert, was sich abzeichnet, was noch nicht funktioniert.",
+    "items": [
+      { "num": "01", "status": "Ausgereift", "title": "Medizinisches RAG", "desc": "Synthese wissenschaftlicher Korpora in wenigen Sekunden. Ausgereift, heute einsatzbereit." },
+      { "num": "02", "status": "Im Entstehen", "title": "Autonome Agenten", "desc": "Orchestrierte mehrstufige Workflows. Im Entstehen, mit eingegrenzten Einsatzbereichen." },
+      { "num": "03", "status": "Im Aufstieg", "title": "Multimodal", "desc": "Medizinische Bildgebung, Text und Sprache kombiniert. Sehr vielversprechend in der F&E, von Fall zu Fall zu validieren." },
+      { "num": "04", "status": "Eingegrenzt", "title": "Reasoning", "desc": "Erklärbares Reasoning zu Diagnosen. Für den Copilot-Einsatz, niemals autonom." },
+      { "num": "05", "status": "Fall für Fall", "title": "Fine-Tuning", "desc": "Spezialisierung auf Ihre Daten. ROI oft geringer als bei einem gut konzipierten RAG." },
+      { "num": "06", "status": "Ausgereift", "title": "Generierung", "desc": "Berichte, Monografien, Schulung. Gut etabliert mit menschlicher Validierung." }
+    ]
+  },
+  "numbers": {
+    "label": "In Zahlen",
+    "title": "Ein Versprechen, vier Dimensionen",
+    "items": [
+      { "value": "+40%", "label": "Angestrebte fachliche Produktivität bei medizinischen RAG-Anwendungsfällen" },
+      { "value": "5×", "label": "Geschwindigkeit der Dokumentenverarbeitung" },
+      { "value": "100%", "label": "Europäisches Hosting, konzipiert für die DSGVO" },
+      { "value": "0", "label": "Kompromisse bei der Datensouveränität" }
+    ]
+  },
+  "versus": {
+    "label": "Vorher, nachher",
+    "title": "Der messbare Unterschied",
+    "subtitle": "Illustratives Branchenbeispiel: wissenschaftliche Literaturrecherche für eine medizinische Abteilung in der Pharma. Zahlen aus vergleichbaren Projekten, auf Ihren Anwendungsfall neu zu kalibrieren.",
+    "before": {
+      "tag": "Vorher: traditioneller Prozess",
+      "headline": "3 Tage / Dossier",
+      "steps": [
+        "Schritt 1. Manuelle Recherche in PubMed (4h)",
+        "Schritt 2. Lektüre und Auswahl der Publikationen (12h)",
+        "Schritt 3. Manuelle Extraktion klinischer Entitäten (4h)",
+        "Schritt 4. Erstellung der Synthese (4h)"
+      ],
+      "total": "Insgesamt: rund 24h, fragiler ROI"
+    },
+    "after": {
+      "tag": "Nachher: EvolvIA-Agent",
+      "headline": "4 Stunden / Dossier",
+      "steps": [
+        "Schritt 1. Medizinisches RAG auf proprietärem Korpus (12s)",
+        "Schritt 2. Unterstützte Auswahl nach mehreren Kriterien (45min)",
+        "Schritt 3. Automatische strukturierte Extraktion (1s)",
+        "Schritt 4. Generierte Synthese, anschließend menschliche Prüfung (3h)"
+      ],
+      "total": "Insgesamt: rund 4h, also 6× schneller"
+    },
+    "disclaimer": "Diese Größenordnungen veranschaulichen einen potenziellen Gewinn. Das tatsächliche Ergebnis hängt von Ihrem Umfang, Ihren Daten und Ihren regulatorischen Vorgaben ab.",
+    "cta": "Ihren potenziellen Gewinn abschätzen"
+  },
+  "marquee": {
+    "label": "Wofür wir stehen",
+    "items": ["Souveränität", "Wissenschaftliche Strenge", "Vertraulichkeit", "Nachhaltige Adoption", "Compliance", "Transparenz", "Operative Exzellenz"]
+  },
+  "band": {
+    "quote": "Künstliche Intelligenz als Hebel, der die Gesundheitsversorgung voranbringt."
+  },
+  "testimonials": {
+    "label": "Was die Menschen sagen",
+    "title": "Diejenigen, die uns weiterempfehlen",
+    "subtitle": "Erfahrungsberichte von Entscheidern aus Gesundheitswesen und Pharma, die mit uns gearbeitet haben.",
+    "items": [
+      {
+        "quote": "Ein Ansatz, der wissenschaftlichen Anspruch mit operativem Pragmatismus verbindet. Selten in der KI-Beratung.",
+        "name": "Innovationsdirektor",
+        "role": "Europäisches Pharmaunternehmen",
+        "photo": "/images/physician.jpg"
+      },
+      {
+        "quote": "Endlich ein Partner, der die Sprache der Daten ebenso spricht wie die des klinischen Alltags. Unsere Teams haben das Tool innerhalb weniger Wochen übernommen.",
+        "name": "Leiterin Medical Affairs",
+        "role": "Pharmaindustrie",
+        "photo": "/images/handshake.jpg"
+      },
+      {
+        "quote": "Eine klare Rahmensetzung, konkrete Liefergegenstände, keine Blackbox. Wir wissen genau, was die KI tut und warum.",
+        "name": "Direktorin Transformation",
+        "role": "Krankenhausgruppe",
+        "photo": "/images/founder-portrait.jpg"
+      }
+    ],
+    "editNote": "Referenzen mit Cassiopée zu vervollständigen."
+  },
+  "news": {
+    "label": "Aktuelles live",
+    "title": "Gesundheitswesen und Pharma im Zeitalter der KI",
+    "subtitle": "Kontinuierliche Beobachtung von künstlicher Intelligenz, digitaler Gesundheit und Pharmaindustrie.",
+    "viewAll": "Alle Neuigkeiten ansehen",
+    "sourceLabel": "Quelle",
+    "loading": "Die neuesten Nachrichten werden geladen…",
+    "errorNote": "Beobachtung vorübergehend nicht verfügbar. Hier eine aktuelle Auswahl.",
+    "fallback": [
+      {
+        "title": "Generative KI beschleunigt die pharmazeutische Forschung",
+        "source": "Beobachtung digitale Gesundheit",
+        "summary": "Pharmaunternehmen integrieren Sprachmodelle für die Dokumentensynthese und die Pharmakovigilanz.",
+        "image": "/images/lab-research.jpg"
+      },
+      {
+        "title": "Krankenhäuser: KI im Dienst der ärztlichen Zeit",
+        "source": "Beobachtung digitale Gesundheit",
+        "summary": "Unterstützte Berichte und Entscheidungshilfe schaffen klinische Zeit für die Pflegekräfte.",
+        "image": "/images/digital-health.jpg"
+      },
+      {
+        "title": "Souveränität der Gesundheitsdaten in Europa",
+        "source": "Beobachtung digitale Gesundheit",
+        "summary": "Europäisches Hosting und DSGVO-Konformität werden zu entscheidenden Kriterien für KI-Projekte.",
+        "image": "/images/hospital-atrium.jpg"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Terminvereinbarung",
+    "titleLine1": "Sprechen wir über",
+    "titleLine2": "Ihr Projekt",
+    "intro1": "Ein Projekt, eine Frage, ein Bedarf an Rahmensetzung oder ein",
+    "intro2": "kostenloses Angebot",
+    "intro3": ". Wählen Sie einen Termin, wir bestätigen ihn per E-Mail mit einem Link zur Videokonferenz.",
+    "emailLabel": "Direkte E-Mail",
+    "calendlyLabel": "Termin von 30 Minuten",
+    "calendlyCta": "Verfügbarkeiten ansehen",
+    "calendlyNote": "30 Minuten, um Ihren Bedarf zu umreißen. Unverbindlich.",
+    "privacyLabel": "Vertraulichkeit",
+    "privacyText": "Minimale und sichere Speicherung der Nachrichten, im Einklang mit der DSGVO. Keine Weitergabe an Dritte. Aufbewahrung maximal 12 Monate.",
+    "formLabel": "Ihre Kontaktdaten und Ihr Bedarf"
+  },
+  "ecosystem": {
+    "label": "Ökosystem",
+    "title": "Die Akteure im Gesundheitswesen, die wir begleiten",
+    "subtitle": "Vom Labor bis zur Klinik sprechen wir die Sprache jedes Berufs in Gesundheit und Pharma.",
+    "items": [
+      { "name": "Pharmaindustrie" },
+      { "name": "Biotechnologie" },
+      { "name": "Kliniken & Krankenhäuser" },
+      { "name": "Medtech & Geräte" },
+      { "name": "Digitale Gesundheit" },
+      { "name": "Versicherungen" }
+    ]
+  },
+  "booking": {
+    "calNote": "Live-Kalender",
+    "calSoon": "Der Live-Buchungskalender erscheint hier, sobald das Konto verbunden ist: Sie wählen einen wirklich freien Termin und erhalten sofort eine E-Mail-Bestätigung mit Videolink. Schreiben Sie uns in der Zwischenzeit unten — Antwort innerhalb von 24 Std.",
+    "calSoonCta": "Schreiben Sie uns",
+    "eyebrow": "Terminvereinbarung",
+    "title": "Buchen Sie einen Austausch",
+    "subtitle": "Hinterlassen Sie Ihre Kontaktdaten, teilen Sie uns mit, was Sie benötigen, und wählen Sie einen Termin. Sie erhalten umgehend eine Bestätigungs-E-Mail mit dem Google Meet-Link.",
+    "stepContact": "Ihre Kontaktdaten",
+    "stepNeed": "Ihr Bedarf",
+    "stepSlot": "Ihr Termin",
+    "needOptions": {
+      "devis": "Ein kostenloses Angebot erhalten",
+      "conseil": "Strategische KI-Beratung",
+      "agents": "Einen maßgeschneiderten KI-Agenten konzipieren",
+      "formation": "Meine Teams in KI schulen",
+      "autre": "Anderes Thema"
+    },
+    "slotLegendFree": "Verfügbar",
+    "slotLegendTaken": "Reserviert",
+    "slotMorning": "Vormittag",
+    "slotAfternoon": "Nachmittag",
+    "messageOptional": "Nachricht (optional)",
+    "noSlot": "Wählen Sie einen verfügbaren Termin",
+    "confirmCta": "Termin bestätigen",
+    "submitting": "Bestätigung läuft…",
+    "successLabel": "Termin bestätigt",
+    "successTitle": "Notiert, vielen Dank",
+    "successText": "Sie erhalten eine Bestätigungs-E-Mail mit dem Google Meet-Link. Bis bald.",
+    "meetNote": "Ein Google Meet-Link wird automatisch erstellt und der Bestätigungs-E-Mail beigefügt.",
+    "errorMessage": "Es ist ein Fehler aufgetreten. Versuchen Sie es erneut oder schreiben Sie uns direkt per E-Mail."
+  },
+  "comingSoon": {
+    "statusBadge": "",
+    "defaultDescription": "Für jede Anfrage kontaktieren Sie uns bitte direkt.",
+    "backHome": "Zurück zur Startseite",
+    "contactUs": "Termin vereinbaren"
+  },
+  "pages": {
+    "about": {
+      "metaTitle": "Über uns",
+      "eyebrow": "Über uns, seit 2026",
+      "title": "Eine Überzeugung, die zur Beratung wurde",
+      "subtitle": "EvolvIA Health entstand aus der Erkenntnis, dass KI im Gesundheitswesen nur dann Wert schafft, wenn sie von denjenigen gedacht wird, die ihre Komplexität im Arbeitsalltag kennen.",
+      "missionLabel": "Mission",
+      "missionTitle": "Die konkrete Integration von KI im Gesundheitswesen begleiten",
+      "missionText": "Die operative Leistung, die Entscheidungsfindung, die Produktivität der Teams und die verantwortungsvolle Innovation verbessern. Das ist das Mandat, das wir uns bei jedem Kunden geben.",
+      "visionLabel": "Vision",
+      "visionTitle": "Der Referenzpartner für die KI-Transformation im Gesundheitswesen in Frankreich",
+      "visionText": "Nicht der größte. Der gründlichste. Derjenige, den die Innovationsleitungen der Pharmaunternehmen, Krankenhäuser und Healthtech rufen, wenn das Thema KI strategisch wird.",
+      "valuesLabel": "Unsere Werte",
+      "valuesTitle": "Vier nicht verhandelbare Prinzipien",
+      "values": [
+        { "num": "01", "title": "Nützlich, nicht spektakulär", "desc": "KI, die einen Workflow transformiert, ist mehr wert als KI, die Schlagzeilen macht." },
+        { "num": "02", "title": "Gelebte Souveränität", "desc": "Europäische Daten, europäische Modelle, wo möglich. Keine Kompromisse bei der Vertraulichkeit." },
+        { "num": "03", "title": "Wissenschaftliche Strenge", "desc": "Metriken, Evaluierungen, Audits. Wir messen, was wir versprechen." },
+        { "num": "04", "title": "Wissensvermittlung", "desc": "Sie gehen stets eigenständiger hervor. Das ist unsere beste Empfehlung." }
+      ],
+      "ctaTitle": "Überzeugt? Sprechen wir darüber",
+      "ctaButton": "Termin vereinbaren"
+    },
+    "services": {
+      "metaTitle": "Leistungen",
+      "eyebrow": "Leistungen 2026",
+      "title": "Fünf Fachgebiete. Eine Überzeugung",
+      "subtitle": "Von der strategischen Diagnose bis zum Einsatz maßgeschneiderter KI-Agenten decken wir die gesamte Wertschöpfungskette der Adoption ab.",
+      "items": [
+        {
+          "num": "01",
+          "category": "Strategische Beratung",
+          "title": "Ihren KI-Kurs festlegen",
+          "desc": "Diagnose der KI-Reife, Kartierung der Anwendungsfälle mit hohem Wert, mehrjährige Roadmap. Eine klare Vision vor dem ersten technischen Piloten.",
+          "deliverables": ["KI-Reifegrad-Audit in 4 Wochen", "Kartierung der prioritären Anwendungsfälle", "Roadmap über 12 bis 36 Monate", "Business Case und projizierter ROI"]
+        },
+        {
+          "num": "02",
+          "category": "Maßgeschneiderte KI-Agenten",
+          "title": "Spezialisierte Assistenten",
+          "desc": "Konzeption und Einsatz von KI-Agenten, die auf Ihren proprietären Daten trainiert und in Ihre fachlichen Workflows integriert werden, vom Prototyp bis zur Skalierung.",
+          "deliverables": ["Medizinisches RAG auf proprietärem Korpus", "HDS-konforme Dokumentenassistenten", "Multi-Modell (OpenAI, Anthropic, Mistral)", "Europäisches Hosting, On-Premise möglich"]
+        },
+        {
+          "num": "03",
+          "category": "Schulung zu generativer KI",
+          "title": "Kompetenzen aufbauen",
+          "desc": "Maßgeschneiderte Programme für Ihre medizinischen, F&E- und operativen Teams. Von der Sensibilisierung bis zum fortgeschrittenen Prompt Engineering.",
+          "deliverables": ["Executive-Sitzungen (3h, Geschäftsleitung)", "Fachliches Bootcamp (2 Tage)", "Train-the-Trainer-Programme", "Interne Zertifizierungen"]
+        },
+        {
+          "num": "04",
+          "category": "Begleitung des Wandels",
+          "title": "Nachhaltige Adoption",
+          "desc": "KI gelingt nur, wenn die Teams sie übernehmen. Change-Management, Alignment, interne Kommunikation, um aus einem POC einen Standard zu machen.",
+          "deliverables": ["Kartierung der Widerstände", "Plan für die interne Kommunikation", "KI-Botschafter", "Messung der Adoption (NPS, Nutzung)"]
+        },
+        {
+          "num": "05",
+          "category": "Innovation und Anwendungsfälle",
+          "title": "Die Grenzen erkunden",
+          "desc": "Technologiebeobachtung, Erkundung neu entstehender Anwendungsfälle, Design-Fiction-Workshops. Das Morgen vorbereiten, indem die Bausteine von heute integriert werden.",
+          "deliverables": ["Autonome Agenten für die F&E", "Multimodale Modelle (medizinische Bildgebung, Text, Sprache)", "Foresight-Workshops zu KI im Gesundheitswesen", "Personalisierte wöchentliche Beobachtung"]
+        }
+      ],
+      "ctaTitle": "Eine Expertise für Ihren Bedarf?",
+      "ctaSubtitle": "Beschreiben Sie uns Ihr Projekt. Wir schlagen Ihnen innerhalb von 48h einen strukturierten Ansatz vor.",
+      "ctaButton": "Termin vereinbaren"
+    },
+    "useCases": {
+      "metaTitle": "Anwendungsfälle",
+      "eyebrow": "Anwendungsfälle",
+      "title": "Dort, wo KI den Unterschied macht",
+      "subtitle": "Konkrete Beispiele für Transformationen, die EvolvIA Health begleitet hat, anonymisiert, um die Vertraulichkeit unserer Kunden zu wahren.",
+      "items": [
+        {
+          "tag": "Pharma, Top-10-Unternehmen",
+          "title": "Dokumentenrecherche um das 5-Fache beschleunigt",
+          "desc": "Einrichtung eines medizinischen RAG auf 12 000 proprietären wissenschaftlichen Publikationen. Die medizinischen Teams erhalten klinische Synthesen in wenigen Sekunden statt in mehreren Stunden.",
+          "stats": [
+            { "label": "Dauer", "value": "6 Wo." },
+            { "label": "Modelle", "value": "Anthropic + Mistral" },
+            { "label": "Adoption", "value": "86%" }
+          ]
+        },
+        {
+          "tag": "Krankenhaus, regionales Universitätsklinikum",
+          "title": "Automatisierte Arztberichte",
+          "desc": "Ein in das Krankenhausinformationssystem integrierter Assistent, der aus Sprachnotizen einen ersten Entwurf des Konsultationsberichts erstellt. Die Ärzte behalten zu 100% die Kontrolle und gewinnen administrative Zeit.",
+          "stats": [
+            { "label": "Hosting", "value": "HDS" },
+            { "label": "Pilotabteilung", "value": "Kardiologie" },
+            { "label": "Zeitgewinn", "value": "40%" }
+          ]
+        },
+        {
+          "tag": "Healthtech, Serie A",
+          "title": "Medizinischer RAG-Pilot in 4 Wochen",
+          "desc": "Einrichtung eines internen Assistenten, der auf der proprietären Dokumentation trainiert und für die Vertriebsteams bereitgestellt wurde. Onboarding 2× schneller, messbar höhere Qualität der Kundenantworten.",
+          "stats": [
+            { "label": "Budget", "value": "< 50K€" },
+            { "label": "Nutzer", "value": "35" },
+            { "label": "NPS Adoption", "value": "+62" }
+          ]
+        }
+      ],
+      "ctaTitle": "Und Ihr Fall?",
+      "ctaSubtitle": "Jede Organisation hat ihre Besonderheiten. Sprechen wir über Ihre.",
+      "ctaButton": "Termin vereinbaren"
+    },
+    "approach": {
+      "metaTitle": "Unser Vorgehen",
+      "eyebrow": "Unser Vorgehen",
+      "title": "Vom strategischen Briefing bis zum Einsatz",
+      "subtitle": "Fünf strukturierte Phasen. Klare Liefergegenstände an jedem Meilenstein. Keine Blackbox: Sie behalten in jedem Schritt die Kontrolle.",
+      "phases": [
+        { "num": "01", "title": "Strategische Rahmensetzung", "desc": "Discovery-Workshop (1h30). Vertiefter Wettbewerbsbenchmark. Kartierung der prioritären Anwendungsfälle. Definition der Personas und der Zielgruppe. Validierung der regulatorischen Vorgaben.", "week": "Woche 1" },
+        { "num": "02", "title": "Architektur und technische Rahmensetzung", "desc": "Definition der Zielarchitektur. Auswahl der Fundamentmodelle (OpenAI, Anthropic, Mistral, lokale Modelle). Rahmensetzung der Datensouveränität. HDS-Validierung, falls zutreffend.", "week": "Wochen 1 und 2" },
+        { "num": "03", "title": "Konzeption und Design", "desc": "Interaktive Prototypen. Design der Nutzererlebnisse. Integration in die fachlichen Workflows. Qualitative Tests mit den Zielnutzern.", "week": "Wochen 2 und 3" },
+        { "num": "04", "title": "Entwicklung und Iterationen", "desc": "Agiler Build in einwöchigen Sprints. Wöchentliche Nutzertests. Integration in die bestehenden Systeme. Absicherung und Lasttests.", "week": "Wochen 4 und 5" },
+        { "num": "05", "title": "Launch und Wissensvermittlung", "desc": "Schrittweiser Einsatz. Schulung der Teams. Umfassende Dokumentation. Hotline nach der Lieferung über 4 Wochen inbegriffen.", "week": "Woche 6" }
+      ],
+      "checkpointsLabel": "Drei Validierungsmeilensteine",
+      "checkpoints": [
+        { "tag": "Meilenstein W1", "title": "Strategisches Briefing validiert", "desc": "Sie nehmen an oder lehnen ab. Keine weitere Phase vor dem Alignment." },
+        { "tag": "Meilenstein W3", "title": "Prototypen validiert", "desc": "Funktionale Demonstration. Anpassungen vor dem Build." },
+        { "tag": "Meilenstein W6", "title": "Produktivsetzung", "desc": "Einsatz, Schulung, vollständige Wissensvermittlung." }
+      ],
+      "ctaLead": "Sie haben gesehen, wie wir arbeiten.",
+      "ctaTitle": "Lassen Sie uns gemeinsam Ihren nächsten KI-Agenten gestalten",
+      "ctaSubtitle": "Vereinbaren Sie einen Termin mit unseren Experten oder fordern Sie ein kostenloses Angebot an. Antwort innerhalb von 48 Werkstunden.",
+      "ctaButton": "Termin vereinbaren",
+      "ctaButtonSecondary": "Ein kostenloses Angebot anfordern"
+    },
+    "insights": {
+      "metaTitle": "Aktuelles",
+      "eyebrow": "Aktuelles",
+      "title": "Gesundheitswesen und Pharma im Zeitalter der KI",
+      "subtitle": "Eine kontinuierliche Beobachtung und unser Blick auf künstliche Intelligenz, digitale Gesundheit und Pharmaindustrie.",
+      "categories": [
+        { "label": "KI-Strategie", "count": "Beobachtung" },
+        { "label": "Anwendungsfälle", "count": "Analysen" },
+        { "label": "Regulatorik", "count": "Einordnungen" },
+        { "label": "Tech und Souveränität", "count": "Artikel" }
+      ],
+      "comingNote": "Unsere nächste Analyse, „Medizinisches RAG: warum 80% der Projekte noch scheitern“, erscheint in den kommenden Wochen.",
+      "subscribeLabel": "Unsere Veröffentlichungen erhalten",
+      "subscribeCta": "Termin vereinbaren"
+    },
+    "clients": {
+      "metaTitle": "Kunden",
+      "eyebrow": "Sie vertrauen uns",
+      "title": "Diskretion als Standard",
+      "subtitle": "EvolvIA Health arbeitet mit Pharmaunternehmen, Krankenhäusern und Healthtech. Aus Respekt vor ihren strategischen Roadmaps veröffentlichen wir eine Referenz nur mit ihrer schriftlichen Zustimmung.",
+      "sectorsLabel": "Begleitete Branchen",
+      "sectors": [
+        { "name": "Pharmaindustrie", "desc": "Medical Affairs, F&E, Pharmakovigilanz, Marktzugang." },
+        { "name": "Krankenhäuser und Universitätskliniken", "desc": "Ärztliche Leitung, klinische Abteilungen, klinische Forschung." },
+        { "name": "Healthtech und Medizinprodukte", "desc": "Start-ups von Serie A bis Serie C, MedTech-Hersteller." },
+        { "name": "Öffentliche Einrichtungen und Verbände", "desc": "Regionale Gesundheitsbehörden, Fachgesellschaften, Stiftungen." }
+      ],
+      "testimonialQuote": "Ein Ansatz, der wissenschaftlichen Anspruch mit operativem Pragmatismus verbindet. Selten in der KI-Beratung.",
+      "testimonialAttribution": "Innovationsdirektor, europäisches Pharmaunternehmen",
+      "ctaTitle": "Möchten Sie dazugehören?",
+      "ctaButton": "Termin vereinbaren"
+    },
+    "founder": {
+      "metaTitle": "Gründerin & Prometheus",
+      "metaDescription": "EvolvIA Health entstand aus praktischer Erfahrung in der pharmazeutischen Beratung. Entdecken Sie die Vision, den Werdegang und Prometheus, unseren proprietären KI-Agenten.",
+      "eyebrow": "Gründerin",
+      "title": "Eine Vision, eine Beratung, ein Agent",
+      "subtitle": "EvolvIA Health entstand aus der Erfahrung in der Beratung zur digitalen Transformation in der Pharmaindustrie, mit einer starken Überzeugung: KI muss nützlich, verständlich und in die Realität des Arbeitsalltags eingebettet sein.",
+      "founderEyebrow": "Gründerin & CEO",
+      "founderHeading": "Von der Pharmaberatung zur angewandten KI",
+      "founderBio": "Nach mehreren Jahren in der digitalen Transformation in der Pharmaindustrie gründete die Gründerin von EvolvIA Health diese Beratung, um die Lücke zwischen dem Versprechen der KI und ihrer tatsächlichen Adoption im Arbeitsalltag zu schließen. Ihre Überzeugung: Keine KI-Transformation gelingt ohne ein feines Verständnis der klinischen, regulatorischen und menschlichen Vorgaben des Gesundheitssektors.",
+      "photoAlt": "Porträt der Gründerin von EvolvIA Health",
+      "schoolNote": "Aufgenommen an einer renommierten Wirtschaftshochschule, Spezialisierung Gesundheit und Strategie.",
+      "growthNote": "Die Beratung hat den Anspruch, sich mit Experten für Gesundheit und Daten zu umgeben, um an der Seite ihrer Kunden zu wachsen.",
+      "timeline": [
+        { "period": "2026, heute", "title": "Gründerin & CEO, EvolvIA Health", "desc": "Gründung der Beratung. Begleitung von Pharmaunternehmen und Krankenhäusern bei der strategischen Einführung generativer KI und autonomer Agenten." },
+        { "period": "2020 bis 2025", "title": "Senior-Beraterin, digitale Transformation Pharma", "desc": "Steuerung von Projekten zur digitalen und Datentransformation in Beratungsunternehmen. Fortschreitende Spezialisierung auf KI-Themen." },
+        { "period": "Ausbildung", "title": "Renommierte Wirtschaftshochschule, Spezialisierung Gesundheit", "desc": "Ausbildung im Management, ergänzt durch eine branchenbezogene Expertise in der Pharma- und Krankenhausindustrie." }
+      ],
+      "prometheeLabPretitle": "Prometheus, ein proprietärer KI-Agent",
+      "prometheeLabTitle": "Unser internes F&E-Feld",
+      "prometheeLabText": "Prometheus ist der KI-Agent, den wir intern entwickeln, um die Patterns, die wir unseren Kunden vorschlagen, zu erproben, zu testen und zuverlässig zu machen. Kein kommerzielles Produkt, sondern ein lebendiges Labor, das garantiert, dass wir wissen, wovon wir sprechen.",
+      "prometheeLabQuote": "Prometheus ist unsere Garantie, dass wir niemals empfehlen, was wir nicht selbst getestet haben."
+    }
+  },
+  "contactForm": {
+    "name": "Vollständiger Name *",
+    "namePlaceholder": "Marie Dupont",
+    "email": "Geschäftliche E-Mail *",
+    "emailPlaceholder": "marie@unternehmen.com",
+    "org": "Organisation",
+    "orgPlaceholder": "Name der Organisation",
+    "topic": "Ihr Bedarf",
+    "topicSelect": "Auswählen",
+    "topicOptions": {
+      "devis": "Ein kostenloses Angebot erhalten",
+      "conseil": "Strategische KI-Beratung",
+      "agents": "Maßgeschneiderter KI-Agent",
+      "formation": "Schulung zu generativer KI",
+      "change": "Begleitung des Wandels",
+      "autre": "Sonstiges"
+    },
+    "message": "Ihre Nachricht *",
+    "messagePlaceholder": "Beschreiben Sie Ihren Bedarf in wenigen Worten…",
+    "rgpd": "Ich bin damit einverstanden, dass meine Daten zur Beantwortung meiner Anfrage verwendet werden, im Einklang mit der Datenschutzerklärung. Es werden keine Daten an Dritte weitergegeben.",
+    "submit": "Meine Anfrage senden",
+    "submitting": "Senden…",
+    "errorMessage": "Es ist ein Fehler aufgetreten. Versuchen Sie es erneut oder schreiben Sie uns direkt per E-Mail.",
+    "successLabel": "Nachricht erhalten",
+    "successTitle": "Vielen Dank",
+    "successText": "Wir melden uns innerhalb von 48 Werkstunden bei Ihnen. Bis bald."
+  },
+  "promethee": {
+    "label": "Prometheus",
+    "title": "Der proprietäre KI-Agent von EvolvIA Health",
+    "description": "Entwickelt für die Realität des Arbeitsalltags im Gesundheitswesen. Eine konkrete Demonstration unserer Überzeugung: KI muss nützlich, verständlich und integriert sein.",
+    "status": "In Entwicklung",
+    "cta": "Prometheus entdecken",
+    "extraNote": "Prometheus ist unser lebendiges Labor: Wir testen darin intern die Patterns, die wir unseren Kunden empfehlen, um niemals zu raten, was wir nicht selbst erprobt haben."
+  },
+  "footer": {
+    "tagline": "Künstliche Intelligenz im Gesundheitswesen greifbar machen.",
+    "cta": "Termin vereinbaren",
+    "exploreTitle": "Erkunden",
+    "moreTitle": "Die Beratung",
+    "contactTitle": "Kontakt",
+    "contactNote": "KI-Beratung für Gesundheitswesen und Pharma. Antwort innerhalb von 48 Werkstunden.",
+    "rights": "Alle Rechte vorbehalten",
+    "madeIn": "Konzipiert in Frankreich, europäisches Hosting"
+  },
+  "meta": {
+    "defaultTitle": "EvolvIA Health, KI & Gesundheit",
+    "description": "Premium-Beratung für die strategische und operative Einführung künstlicher Intelligenz im Gesundheitswesen und in der Pharmaindustrie."
+  }
+}

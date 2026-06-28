@@ -1,0 +1,469 @@
+{
+  "nav": {
+    "about": "Quiénes somos",
+    "services": "Servicios",
+    "useCases": "Casos de uso",
+    "approach": "Enfoque",
+    "founder": "Fundadora",
+    "insights": "Actualidad",
+    "testimonials": "Testimonios",
+    "clients": "Clientes",
+    "contact": "Solicitar una cita",
+    "homeAria": "EvolvIA Health, inicio",
+    "langAria": "Selección de idioma"
+  },
+  "hero": {
+    "eyebrow": "Consultoría en inteligencia artificial para la salud y la farma",
+    "title": ["Hacer la inteligencia", "artificial", "tangible en salud"],
+    "subtitle": "EvolvIA Health acompaña a laboratorios farmacéuticos, hospitales y healthtech en la adopción estratégica y operativa de la inteligencia artificial. Una IA útil, comprensible e integrada en las realidades del terreno.",
+    "ctaApproach": "Descubrir nuestro enfoque",
+    "ctaBooking": "Solicitar una cita",
+    "scroll": "Desplazar"
+  },
+  "trust": {
+    "label": "Avanzan con nosotros",
+    "title": "La salud y la farma adoptan la IA. Nosotros la hacemos concreta",
+    "stats": [
+      { "value": "100%", "label": "Alojamiento europeo, conforme al RGPD" },
+      { "value": "3", "label": "Sectores acompañados: farma, hospital, healthtech" },
+      { "value": "5×", "label": "Aceleración prevista en las tareas documentales" },
+      { "value": "2026", "label": "Año de creación del despacho" }
+    ],
+    "partnersLabel": "Al servicio de los actores de la salud farmacéutica y digital"
+  },
+  "manifesto": {
+    "label": "Nuestra convicción",
+    "text": "La IA en salud no es una promesa tecnológica. Es una disciplina de terreno, al servicio del profesional sanitario, del paciente y de la decisión."
+  },
+  "services": {
+    "label": "Servicios",
+    "title": "Cuatro palancas para transformar la IA en ventaja operativa"
+  },
+  "useCases": {
+    "label": "Actividades",
+    "hint": "Desplázate para explorar",
+    "items": [
+      { "tag": "Consultoría estratégica", "title": "Definir una estrategia de IA creíble, del POC a la industrialización.", "body": "Para laboratorios farmacéuticos y startups healthtech que quieren superar la experimentación. Hoja de ruta, gobernanza, priorización de casos de uso de alto impacto." },
+      { "tag": "Agentes de IA personalizados", "title": "Diseñar agentes de IA útiles, comprensibles e integrados en el terreno.", "body": "Asistentes inteligentes calibrados según sus protocolos, datos y flujos de trabajo. Sin magia tecnológica: utilidad medible al servicio de los profesionales de la salud." },
+      { "tag": "Formación en IA generativa", "title": "Formar a sus equipos en los usos profesionales de la IA generativa.", "body": "Programas adaptados a los profesionales de la salud. Usos concretos, actitud crítica, higiene de datos. De la sensibilización al dominio operativo." },
+      { "tag": "Gestión del cambio", "title": "Transformar las organizaciones de forma duradera, por y con la IA.", "body": "Adopción, exploración continua de casos de uso, medición del impacto. La IA no cambia nada sin un marco humano y operativo sólido." }
+    ]
+  },
+  "capabilities": {
+    "label": "Capacidades de IA, estado del arte 2026",
+    "title": "Lo que la IA sabe hacer por la salud",
+    "subtitle": "Un mapa honesto: lo que funciona hoy, lo que emerge, lo que aún no funciona.",
+    "items": [
+      { "num": "01", "status": "Maduro", "title": "RAG médico", "desc": "Síntesis de corpus científicos en pocos segundos. Maduro, desplegable hoy." },
+      { "num": "02", "status": "Emergente", "title": "Agentes autónomos", "desc": "Flujos de trabajo de varias etapas orquestados. Emergente, con usos supervisados." },
+      { "num": "03", "status": "En auge", "title": "Multimodal", "desc": "Imagen médica, texto y voz combinados. Muy prometedor en I+D, a validar caso por caso." },
+      { "num": "04", "status": "Supervisado", "title": "Razonamiento", "desc": "Razonamiento explicable sobre diagnósticos. Para copiloto, nunca de forma autónoma." },
+      { "num": "05", "status": "Caso por caso", "title": "Fine-tuning", "desc": "Especialización sobre sus datos. ROI a menudo inferior al de un RAG bien diseñado." },
+      { "num": "06", "status": "Maduro", "title": "Generación", "desc": "Informes, monografías, formación. Bien adoptado con validación humana." }
+    ]
+  },
+  "numbers": {
+    "label": "En cifras",
+    "title": "Una promesa, cuatro dimensiones",
+    "items": [
+      { "value": "+40%", "label": "Productividad de los equipos prevista en los casos de uso de RAG médico" },
+      { "value": "5×", "label": "Velocidad de procesamiento documental" },
+      { "value": "100%", "label": "Alojamiento europeo, diseñado para el RGPD" },
+      { "value": "0", "label": "Concesiones sobre la soberanía de los datos" }
+    ]
+  },
+  "versus": {
+    "label": "Antes, después",
+    "title": "El delta medible",
+    "subtitle": "Ejemplo sectorial ilustrativo: revisión de literatura científica para un departamento médico en farma. Cifras procedentes de proyectos comparables, a recalibrar según su caso de uso.",
+    "before": {
+      "tag": "Antes: proceso tradicional",
+      "headline": "3 días / expediente",
+      "steps": [
+        "Etapa 1. Búsqueda manual en PubMed (4h)",
+        "Etapa 2. Lectura y selección de las publicaciones (12h)",
+        "Etapa 3. Extracción manual de entidades clínicas (4h)",
+        "Etapa 4. Redacción de la síntesis (4h)"
+      ],
+      "total": "Total: alrededor de 24h, ROI frágil"
+    },
+    "after": {
+      "tag": "Después: agente EvolvIA",
+      "headline": "4 horas / expediente",
+      "steps": [
+        "Etapa 1. RAG médico sobre corpus propietario (12s)",
+        "Etapa 2. Selección asistida multicriterio (45min)",
+        "Etapa 3. Extracción estructurada automática (1s)",
+        "Etapa 4. Síntesis generada y luego revisión humana (3h)"
+      ],
+      "total": "Total: alrededor de 4h, es decir, 6× más rápido"
+    },
+    "disclaimer": "Estos órdenes de magnitud ilustran una ganancia potencial. El resultado real depende de su perímetro, de sus datos y de sus restricciones regulatorias.",
+    "cta": "Estimar su ganancia potencial"
+  },
+  "marquee": {
+    "label": "Lo que encarnamos",
+    "items": ["Soberanía", "Rigor científico", "Confidencialidad", "Adopción duradera", "Conformidad", "Transparencia", "Excelencia operativa"]
+  },
+  "band": {
+    "quote": "Hacer de la inteligencia artificial una palanca de elevación para la salud."
+  },
+  "testimonials": {
+    "label": "La opinión de la gente",
+    "title": "Quienes nos recomiendan",
+    "subtitle": "Experiencias de responsables de la salud y la farma que han trabajado con nosotros.",
+    "items": [
+      {
+        "quote": "Un enfoque que combina exigencia científica y pragmatismo operativo. Algo poco común en la consultoría de IA.",
+        "name": "Director de Innovación",
+        "role": "Laboratorio farmacéutico europeo",
+        "photo": "/images/physician.jpg"
+      },
+      {
+        "quote": "Por fin un socio que habla tanto el lenguaje de los datos como el del terreno clínico. Nuestros equipos adoptaron la herramienta en pocas semanas.",
+        "name": "Responsable de Asuntos Médicos",
+        "role": "Industria farmacéutica",
+        "photo": "/images/handshake.jpg"
+      },
+      {
+        "quote": "Un encuadre claro, entregables concretos, cero caja negra. Sabemos exactamente qué hace la IA y por qué.",
+        "name": "Directora de Transformación",
+        "role": "Grupo hospitalario",
+        "photo": "/images/founder-portrait.jpg"
+      }
+    ],
+    "editNote": "Testimonios pendientes de completar con Cassiopée."
+  },
+  "news": {
+    "label": "Actualidad en directo",
+    "title": "La salud y la farma en la era de la IA",
+    "subtitle": "Una vigilancia continua sobre la inteligencia artificial, la salud digital y la industria farmacéutica.",
+    "viewAll": "Ver toda la actualidad",
+    "sourceLabel": "Fuente",
+    "loading": "Cargando las últimas noticias…",
+    "errorNote": "Vigilancia momentáneamente no disponible. Aquí tiene una selección reciente.",
+    "fallback": [
+      {
+        "title": "La IA generativa acelera la investigación farmacéutica",
+        "source": "Vigilancia de salud digital",
+        "summary": "Los laboratorios integran los modelos de lenguaje para la síntesis documental y la farmacovigilancia.",
+        "image": "/images/lab-research.jpg"
+      },
+      {
+        "title": "Hospitales: la IA al servicio del tiempo médico",
+        "source": "Vigilancia de salud digital",
+        "summary": "Los informes asistidos y el apoyo a la decisión liberan tiempo clínico para los profesionales sanitarios.",
+        "image": "/images/digital-health.jpg"
+      },
+      {
+        "title": "Soberanía de los datos de salud en Europa",
+        "source": "Vigilancia de salud digital",
+        "summary": "El alojamiento europeo y la conformidad con el RGPD se convierten en criterios decisivos de los proyectos de IA.",
+        "image": "/images/hospital-atrium.jpg"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Solicitud de cita",
+    "titleLine1": "Hablemos de",
+    "titleLine2": "su proyecto",
+    "intro1": "Un proyecto, una pregunta, una necesidad de encuadre o un",
+    "intro2": "presupuesto gratuito",
+    "intro3": ". Elija una franja horaria y la confirmamos por correo electrónico con un enlace de videoconferencia.",
+    "emailLabel": "Correo electrónico directo",
+    "calendlyLabel": "Cita de 30 minutos",
+    "calendlyCta": "Ver disponibilidad",
+    "calendlyNote": "30 minutos para encuadrar su necesidad. Sin compromiso.",
+    "privacyLabel": "Confidencialidad",
+    "privacyText": "Almacenamiento mínimo y seguro de los mensajes, conforme al RGPD. Sin compartir con terceros. Conservación de 12 meses como máximo.",
+    "formLabel": "Sus datos de contacto y su necesidad"
+  },
+  "ecosystem": {
+    "label": "Ecosistema",
+    "title": "Los actores de la salud que acompañamos",
+    "subtitle": "Del laboratorio al hospital, hablamos el idioma de cada profesión de la salud y la farma.",
+    "items": [
+      { "name": "Industria farmacéutica" },
+      { "name": "Biotecnología" },
+      { "name": "Hospitales y clínicas" },
+      { "name": "Medtech y dispositivos" },
+      { "name": "Salud digital" },
+      { "name": "Seguros y mutuas" }
+    ]
+  },
+  "booking": {
+    "calNote": "Calendario en vivo",
+    "calSoon": "El calendario de reservas en directo aparecerá aquí en cuanto se conecte la cuenta: elegirá una franja realmente disponible y recibirá al instante una confirmación por email con el enlace de vídeo. Mientras tanto, escríbanos abajo; respuesta en 24 h.",
+    "calSoonCta": "Escríbenos",
+    "eyebrow": "Solicitud de cita",
+    "title": "Reserve una conversación",
+    "subtitle": "Deje sus datos de contacto, díganos qué necesita y elija una franja horaria. Recibirá de inmediato un correo electrónico de confirmación con el enlace de Google Meet.",
+    "stepContact": "Sus datos de contacto",
+    "stepNeed": "Su necesidad",
+    "stepSlot": "Su franja horaria",
+    "needOptions": {
+      "devis": "Obtener un presupuesto gratuito",
+      "conseil": "Consultoría estratégica de IA",
+      "agents": "Diseñar un agente de IA personalizado",
+      "formation": "Formar a mis equipos en IA",
+      "autre": "Otro tema"
+    },
+    "slotLegendFree": "Disponible",
+    "slotLegendTaken": "Reservado",
+    "slotMorning": "Mañana",
+    "slotAfternoon": "Tarde",
+    "messageOptional": "Mensaje (opcional)",
+    "noSlot": "Seleccione una franja horaria disponible",
+    "confirmCta": "Confirmar la cita",
+    "submitting": "Confirmando…",
+    "successLabel": "Cita confirmada",
+    "successTitle": "Anotado, gracias",
+    "successText": "Recibirá un correo electrónico de confirmación con el enlace de Google Meet. Hasta muy pronto.",
+    "meetNote": "Se genera automáticamente un enlace de Google Meet que se adjunta al correo electrónico de confirmación.",
+    "errorMessage": "Se ha producido un error. Inténtelo de nuevo o escríbanos directamente por correo electrónico."
+  },
+  "comingSoon": {
+    "statusBadge": "",
+    "defaultDescription": "Para cualquier solicitud, contáctenos directamente.",
+    "backHome": "Volver al inicio",
+    "contactUs": "Solicitar una cita"
+  },
+  "pages": {
+    "about": {
+      "metaTitle": "Quiénes somos",
+      "eyebrow": "Quiénes somos, desde 2026",
+      "title": "Una convicción convertida en despacho",
+      "subtitle": "EvolvIA Health nació de la intuición de que la IA solo aportará valor en la salud si la piensan quienes conocen su complejidad sobre el terreno.",
+      "missionLabel": "Misión",
+      "missionTitle": "Acompañar la integración concreta de la IA en la salud",
+      "missionText": "Mejorar el rendimiento operativo, la toma de decisiones, la productividad de los equipos y la innovación responsable. Ese es el mandato que asumimos con cada cliente.",
+      "visionLabel": "Visión",
+      "visionTitle": "El socio de referencia de la transformación con IA en la salud en Francia",
+      "visionText": "No el más grande. El más riguroso. Aquel al que llaman las direcciones de innovación de los laboratorios, los hospitales y las healthtech cuando el tema de la IA se vuelve estratégico.",
+      "valuesLabel": "Nuestros valores",
+      "valuesTitle": "Cuatro principios innegociables",
+      "values": [
+        { "num": "01", "title": "Útil, no espectacular", "desc": "La IA que transforma un flujo de trabajo vale más que la que sale en portada." },
+        { "num": "02", "title": "Soberanía asumida", "desc": "Datos europeos, modelos europeos cuando es posible. Ninguna concesión sobre la confidencialidad." },
+        { "num": "03", "title": "Rigor científico", "desc": "Métricas, evaluaciones, auditorías. Medimos lo que prometemos." },
+        { "num": "04", "title": "Transmisión", "desc": "Siempre se marcha más autónomo. Esa es nuestra mejor recomendación." }
+      ],
+      "ctaTitle": "¿Convencido? Hablemos",
+      "ctaButton": "Solicitar una cita"
+    },
+    "services": {
+      "metaTitle": "Servicios",
+      "eyebrow": "Servicios 2026",
+      "title": "Cinco áreas de experiencia. Una convicción",
+      "subtitle": "Desde el diagnóstico estratégico hasta el despliegue de agentes de IA personalizados, cubrimos toda la cadena de valor de la adopción.",
+      "items": [
+        {
+          "num": "01",
+          "category": "Consultoría estratégica",
+          "title": "Definir su trayectoria de IA",
+          "desc": "Diagnóstico de madurez en IA, mapeo de los casos de uso de alto valor, hoja de ruta plurianual. Una visión clara antes del primer piloto técnico.",
+          "deliverables": ["Auditoría de madurez en IA en 4 semanas", "Mapeo de los casos de uso prioritarios", "Hoja de ruta de 12 a 36 meses", "Business case y ROI proyectado"]
+        },
+        {
+          "num": "02",
+          "category": "Agentes de IA personalizados",
+          "title": "Asistentes especializados",
+          "desc": "Diseño y despliegue de agentes de IA entrenados con sus datos propietarios e integrados en sus flujos de trabajo de negocio, del prototipo al paso a escala.",
+          "deliverables": ["RAG médico sobre corpus propietario", "Asistentes documentales compatibles con HDS", "Multimodelo (OpenAI, Anthropic, Mistral)", "Alojamiento europeo, on-premise posible"]
+        },
+        {
+          "num": "03",
+          "category": "Formación en IA generativa",
+          "title": "Desarrollar competencias",
+          "desc": "Programas a medida para sus equipos médicos, de I+D y operativos. Desde la sensibilización hasta el prompt engineering avanzado.",
+          "deliverables": ["Sesiones ejecutivas (3h, comité de dirección)", "Bootcamp de negocio (2 días)", "Programas de formación de formadores", "Certificaciones internas"]
+        },
+        {
+          "num": "04",
+          "category": "Acompañamiento del cambio",
+          "title": "Adopción duradera",
+          "desc": "La IA solo triunfa si los equipos la adoptan. Gestión del cambio, alineamiento, comunicación interna para transformar un POC en estándar.",
+          "deliverables": ["Mapeo de las resistencias", "Plan de comunicación interna", "Embajadores de IA", "Medición de la adopción (NPS, uso)"]
+        },
+        {
+          "num": "05",
+          "category": "Innovación y casos de uso",
+          "title": "Explorar las fronteras",
+          "desc": "Vigilancia tecnológica, exploración de casos de uso emergentes, talleres de design fiction. Preparar el mañana integrando los bloques de construcción de hoy.",
+          "deliverables": ["Agentes autónomos para la I+D", "Modelos multimodales (imagen médica, texto, voz)", "Talleres de prospectiva de IA en salud", "Vigilancia semanal personalizada"]
+        }
+      ],
+      "ctaTitle": "¿Una experiencia para su necesidad?",
+      "ctaSubtitle": "Descríbanos su proyecto. Le proponemos un enfoque estructurado en 48h.",
+      "ctaButton": "Solicitar una cita"
+    },
+    "useCases": {
+      "metaTitle": "Casos de uso",
+      "eyebrow": "Casos de uso",
+      "title": "Allí donde la IA marca la diferencia",
+      "subtitle": "Ejemplos concretos de transformaciones lideradas por EvolvIA Health, anonimizados para respetar la confidencialidad de nuestros clientes.",
+      "items": [
+        {
+          "tag": "Farma, laboratorio Top 10",
+          "title": "Revisión documental acelerada 5×",
+          "desc": "Implementación de un RAG médico sobre 12 000 publicaciones científicas propietarias. Los equipos médicos obtienen síntesis clínicas en pocos segundos en lugar de varias horas.",
+          "stats": [
+            { "label": "Duración", "value": "6 sem." },
+            { "label": "Modelos", "value": "Anthropic + Mistral" },
+            { "label": "Adopción", "value": "86%" }
+          ]
+        },
+        {
+          "tag": "Hospital, hospital universitario regional",
+          "title": "Informes automatizados",
+          "desc": "Asistente integrado en el sistema de información hospitalaria que genera un primer borrador de informe de consulta a partir de notas de voz. Los médicos conservan el 100% del control y ganan tiempo administrativo.",
+          "stats": [
+            { "label": "Alojamiento", "value": "HDS" },
+            { "label": "Servicio piloto", "value": "Cardiología" },
+            { "label": "Ahorro de tiempo", "value": "40%" }
+          ]
+        },
+        {
+          "tag": "Healthtech, serie A",
+          "title": "Piloto de RAG médico en 4 semanas",
+          "desc": "Implementación de un asistente interno entrenado con la documentación propietaria, desplegado para los equipos comerciales. Onboarding 2× más rápido, calidad de respuesta al cliente mediblemente superior.",
+          "stats": [
+            { "label": "Presupuesto", "value": "< 50K€" },
+            { "label": "Usuarios", "value": "35" },
+            { "label": "NPS de adopción", "value": "+62" }
+          ]
+        }
+      ],
+      "ctaTitle": "¿Y su caso?",
+      "ctaSubtitle": "Cada organización tiene sus particularidades. Hablemos de la suya.",
+      "ctaButton": "Solicitar una cita"
+    },
+    "approach": {
+      "metaTitle": "Nuestro enfoque",
+      "eyebrow": "Nuestro enfoque",
+      "title": "Del brief estratégico al despliegue",
+      "subtitle": "Cinco fases estructuradas. Entregables claros en cada hito. Ninguna caja negra: usted mantiene el control en cada etapa.",
+      "phases": [
+        { "num": "01", "title": "Encuadre estratégico", "desc": "Taller de descubrimiento (1h30). Benchmark competitivo en profundidad. Mapeo de los casos de uso prioritarios. Definición de los perfiles y del objetivo. Validación de las restricciones regulatorias.", "week": "Semana 1" },
+        { "num": "02", "title": "Arquitectura y encuadre técnico", "desc": "Definición de la arquitectura objetivo. Elección de los modelos fundacionales (OpenAI, Anthropic, Mistral, modelos locales). Encuadre de la soberanía de los datos. Validación HDS si procede.", "week": "Semanas 1 y 2" },
+        { "num": "03", "title": "Concepción y diseño", "desc": "Prototipos interactivos. Diseño de las experiencias de usuario. Integración en los flujos de trabajo de negocio. Pruebas cualitativas con los usuarios objetivo.", "week": "Semanas 2 y 3" },
+        { "num": "04", "title": "Desarrollo e iteraciones", "desc": "Build ágil en sprints de una semana. Pruebas de usuario semanales. Integración con los sistemas existentes. Aseguramiento y pruebas de carga.", "week": "Semanas 4 y 5" },
+        { "num": "05", "title": "Lanzamiento y transmisión", "desc": "Despliegue progresivo. Formación de los equipos. Documentación exhaustiva. Línea de soporte posterior a la entrega de 4 semanas incluida.", "week": "Semana 6" }
+      ],
+      "checkpointsLabel": "Tres hitos de validación",
+      "checkpoints": [
+        { "tag": "Hito S1", "title": "Brief estratégico validado", "desc": "Usted valida o rechaza. Ninguna fase posterior antes del alineamiento." },
+        { "tag": "Hito S3", "title": "Prototipos validados", "desc": "Demostración funcional. Ajustes antes del build." },
+        { "tag": "Hito S6", "title": "Puesta en producción", "desc": "Despliegue, formación, transmisión completa." }
+      ],
+      "ctaLead": "Ha visto cómo trabajamos.",
+      "ctaTitle": "Creemos juntos su próximo agente de IA",
+      "ctaSubtitle": "Solicite una cita con nuestros expertos o pida un presupuesto gratuito. Respuesta en 48h hábiles.",
+      "ctaButton": "Solicitar una cita",
+      "ctaButtonSecondary": "Pedir un presupuesto gratuito"
+    },
+    "insights": {
+      "metaTitle": "Actualidad",
+      "eyebrow": "Actualidad",
+      "title": "La salud y la farma en la era de la IA",
+      "subtitle": "Una vigilancia continua y nuestra mirada sobre la inteligencia artificial, la salud digital y la industria farmacéutica.",
+      "categories": [
+        { "label": "Estrategia de IA", "count": "Vigilancia" },
+        { "label": "Casos de uso", "count": "Análisis" },
+        { "label": "Regulatorio", "count": "Descifrados" },
+        { "label": "Tecnología y soberanía", "count": "Artículos" }
+      ],
+      "comingNote": "Nuestro próximo análisis, « RAG médico: por qué el 80% de los proyectos aún fracasan », se publica en las próximas semanas.",
+      "subscribeLabel": "Recibir nuestras publicaciones",
+      "subscribeCta": "Solicitar una cita"
+    },
+    "clients": {
+      "metaTitle": "Clientes",
+      "eyebrow": "Confían en nosotros",
+      "title": "Discreción por defecto",
+      "subtitle": "EvolvIA Health trabaja con laboratorios farmacéuticos, hospitales y healthtech. Por respeto a sus hojas de ruta estratégicas, solo publicamos una referencia con su acuerdo por escrito.",
+      "sectorsLabel": "Sectores acompañados",
+      "sectors": [
+        { "name": "Industria farmacéutica", "desc": "Asuntos médicos, I+D, farmacovigilancia, acceso al mercado." },
+        { "name": "Hospitales y hospitales universitarios", "desc": "Dirección médica, servicios clínicos, investigación hospitalaria." },
+        { "name": "Healthtech y dispositivos médicos", "desc": "Start-ups de serie A a serie C, fabricantes MedTech." },
+        { "name": "Organismos públicos y asociaciones", "desc": "Agencias regionales de salud, sociedades científicas, fundaciones." }
+      ],
+      "testimonialQuote": "Un enfoque que combina exigencia científica y pragmatismo operativo. Algo poco común en la consultoría de IA.",
+      "testimonialAttribution": "Director de Innovación, laboratorio farmacéutico europeo",
+      "ctaTitle": "¿Quiere formar parte?",
+      "ctaButton": "Solicitar una cita"
+    },
+    "founder": {
+      "metaTitle": "Fundadora y Prometheus",
+      "metaDescription": "EvolvIA Health nació de una experiencia sobre el terreno en consultoría farmacéutica. Descubra la visión, la trayectoria y Prometheus, nuestro agente de IA propietario.",
+      "eyebrow": "Fundadora",
+      "title": "Una visión, un despacho, un agente",
+      "subtitle": "EvolvIA Health nació de una experiencia en consultoría de transformación digital en la industria farmacéutica, con una convicción firme: la IA debe ser útil, comprensible e integrada en las realidades del terreno.",
+      "founderEyebrow": "Fundadora y CEO",
+      "founderHeading": "De la consultoría farma a la IA aplicada",
+      "founderBio": "Tras varios años en transformación digital en la industria farmacéutica, la fundadora de EvolvIA Health creó este despacho para cerrar la brecha entre la promesa de la IA y su adopción real sobre el terreno. Su convicción: ninguna transformación con IA triunfa sin una comprensión fina de las restricciones clínicas, regulatorias y humanas del sector de la salud.",
+      "photoAlt": "Retrato de la fundadora de EvolvIA Health",
+      "schoolNote": "Admitida en una gran escuela de negocios, especialización en salud y estrategia.",
+      "growthNote": "El despacho aspira a rodearse de expertos en salud y en datos para crecer junto a sus clientes.",
+      "timeline": [
+        { "period": "2026, actualidad", "title": "Fundadora y CEO, EvolvIA Health", "desc": "Creación del despacho. Acompañamiento de laboratorios farma y de hospitales en la adopción estratégica de la IA generativa y de los agentes autónomos." },
+        { "period": "2020 a 2025", "title": "Consultoría sénior, transformación digital farma", "desc": "Dirección de proyectos de transformación digital y de datos en despachos de consultoría. Especialización progresiva en los temas de IA." },
+        { "period": "Formación", "title": "Gran escuela de negocios, especialización en salud", "desc": "Formación en management, complementada con una experiencia sectorial en la industria farmacéutica y hospitalaria." }
+      ],
+      "prometheeLabPretitle": "Prometheus, un agente de IA propietario",
+      "prometheeLabTitle": "Nuestro terreno de I+D interno",
+      "prometheeLabText": "Prometheus es el agente de IA que desarrollamos internamente para experimentar, probar y fiabilizar los patrones que proponemos a nuestros clientes. No es un producto comercial, sino un laboratorio vivo que garantiza que sabemos de qué hablamos.",
+      "prometheeLabQuote": "Prometheus es nuestra garantía de que nunca recomendamos lo que no hemos probado nosotros mismos."
+    }
+  },
+  "contactForm": {
+    "name": "Nombre completo *",
+    "namePlaceholder": "Marie Dupont",
+    "email": "Correo electrónico profesional *",
+    "emailPlaceholder": "marie@laboratorio.com",
+    "org": "Organización",
+    "orgPlaceholder": "Nombre de la organización",
+    "topic": "Su necesidad",
+    "topicSelect": "Seleccionar",
+    "topicOptions": {
+      "devis": "Obtener un presupuesto gratuito",
+      "conseil": "Consultoría estratégica de IA",
+      "agents": "Agente de IA personalizado",
+      "formation": "Formación en IA generativa",
+      "change": "Acompañamiento del cambio",
+      "autre": "Otro"
+    },
+    "message": "Su mensaje *",
+    "messagePlaceholder": "Describa su necesidad en pocas palabras…",
+    "rgpd": "Acepto que mis datos se utilicen para responder a mi solicitud, conforme a la política de confidencialidad. Ningún dato se comparte con terceros.",
+    "submit": "Enviar mi solicitud",
+    "submitting": "Enviando…",
+    "errorMessage": "Se ha producido un error. Inténtelo de nuevo o escríbanos directamente por correo electrónico.",
+    "successLabel": "Mensaje recibido",
+    "successTitle": "Gracias",
+    "successText": "Le responderemos en 48h hábiles. Hasta muy pronto."
+  },
+  "promethee": {
+    "label": "Prometheus",
+    "title": "El agente de IA propietario de EvolvIA Health",
+    "description": "Diseñado para las realidades del terreno en salud. Una demostración concreta de nuestra convicción: la IA debe ser útil, comprensible e integrada.",
+    "status": "En desarrollo",
+    "cta": "Descubrir Prometheus",
+    "extraNote": "Prometheus es nuestro laboratorio vivo: probamos internamente los patrones que recomendamos a nuestros clientes, para no aconsejar nunca lo que no hemos experimentado nosotros mismos."
+  },
+  "footer": {
+    "tagline": "Hacer la inteligencia artificial tangible en salud.",
+    "cta": "Solicitar una cita",
+    "exploreTitle": "Explorar",
+    "moreTitle": "El despacho",
+    "contactTitle": "Contacto",
+    "contactNote": "Despacho de consultoría en IA para la salud y la farma. Respuesta en 48h hábiles.",
+    "rights": "Todos los derechos reservados",
+    "madeIn": "Diseñado en Francia, alojamiento europeo"
+  },
+  "meta": {
+    "defaultTitle": "EvolvIA Health, IA y Salud",
+    "description": "Despacho de consultoría premium en adopción estratégica y operativa de la inteligencia artificial en la salud y la industria farmacéutica."
+  }
+}
