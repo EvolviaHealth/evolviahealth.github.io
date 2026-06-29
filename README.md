@@ -17,7 +17,7 @@ calendrier de prise de rendez-vous, formulaire de contact, actualités, pages l�
 | Styles | Tailwind CSS |
 | Internationalisation | `next-intl` (FR, EN, ES, DE, IT) |
 | Animations | GSAP, Motion, Lenis |
-| Hébergement | Vercel (CDN statique) |
+| Hébergement | GitHub Pages (CDN statique) |
 
 Le site ne nécessite **aucun serveur** : tout est pré-généré en HTML/CSS/JS et servi
 par un CDN. C'est rapide, robuste et peu coûteux.
@@ -56,19 +56,15 @@ n'importe quel hébergeur statique).
 
 ---
 
-## 6. Déploiement (Vercel)
+## 6. Déploiement (GitHub Pages)
 
-Le projet est conçu pour Vercel.
+Le site est publié sur **GitHub Pages** via **GitHub Actions**, automatiquement.
 
-- **Option simple (recommandée)** : connecter ce dépôt à un compte Vercel — chaque
-  mise à jour du code déclenche un déploiement automatique.
-- **Option en ligne de commande** :
-  ```bash
-  npx vercel deploy --prod
-  ```
-
-Configuration de build dans [`vercel.json`](./vercel.json) : sortie statique
-(`outputDirectory: "out"`).
+- À chaque `push` sur la branche `main`, le workflow
+  [`.github/workflows/deploy.yml`](./.github/workflows/deploy.yml) construit le site
+  (`npm run build`) et publie le dossier `out/` sur GitHub Pages.
+- Aucune commande manuelle : le déploiement se fait tout seul.
+- Le site est servi à l'adresse `https://<utilisateur>.github.io`.
 
 ---
 
@@ -77,8 +73,8 @@ Configuration de build dans [`vercel.json`](./vercel.json) : sortie statique
 Le site **fonctionne sans aucune variable** (le formulaire bascule alors sur un
 e-mail pré-rempli). Les variables ci-dessous **activent** les fonctions avancées.
 Le détail et la marche à suivre sont dans [`.env.example`](./.env.example) ;
-copier ce fichier en `.env.local` (développement) et renseigner les valeurs sur
-Vercel (production).
+copier ce fichier en `.env.local` (développement). Les valeurs **publiques**
+(`NEXT_PUBLIC_*`) sont versionnées dans `.env.production`.
 
 | Variable | Rôle |
 |---|---|

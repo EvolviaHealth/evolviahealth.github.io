@@ -66,7 +66,7 @@ export default async function ConfidentialitePage({ params }: { params: Promise<
             <h2 className={h2}>Destinataires et sous-traitants</h2>
             <p>Vos données peuvent transiter par les prestataires techniques suivants :</p>
             <ul className="mt-2 space-y-1 list-disc pl-5">
-              <li><strong>Vercel</strong> — hébergement du site.</li>
+              <li><strong>GitHub Pages</strong> — hébergement du site.</li>
               <li><strong>Web3Forms</strong> — acheminement des messages du formulaire par email.</li>
               <li><strong>Cal.com</strong> — gestion des rendez-vous.</li>
               <li><strong>Google</strong> (Agenda / Meet) — création des rendez-vous et liens visio.</li>

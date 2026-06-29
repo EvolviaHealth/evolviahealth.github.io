@@ -51,10 +51,10 @@ export default async function MentionsLegalesPage({ params }: { params: Promise<
           <div>
             <h2 className={h2}>Hébergement</h2>
             <p>
-              Le site est hébergé par <strong>Vercel Inc.</strong> — 340 S Lemon Ave #4133,
-              Walnut, CA 91789, États-Unis —{' '}
-              <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" className="text-teal-700 underline">
-                vercel.com
+              Le site est hébergé par <strong>GitHub, Inc.</strong> (GitHub Pages) — 88 Colin P. Kelly Jr.
+              Street, San Francisco, CA 94107, États-Unis —{' '}
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-teal-700 underline">
+                github.com
               </a>.
             </p>
           </div>

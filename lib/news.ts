@@ -2,13 +2,13 @@
  * Récupération d'actualités RÉELLES côté serveur (au build).
  *
  * Le site est en export statique : ce fetch s'exécute pendant `next build`
- * (l'environnement Vercel a accès au réseau) et « cuit » les dernières
+ * (l'environnement de build a accès au réseau) et « cuit » les dernières
  * actualités dans le HTML. Le composant client NewsFeed tente ensuite un
  * rafraîchissement live ; en dernier recours, une sélection de repli s'affiche.
  *
  * Aucune dépendance externe : parsing RSS par expressions régulières.
  * Pour rafraîchir les actualités en prod : redéployer (ou brancher un Deploy
- * Hook quotidien sur Vercel).
+ * Hook quotidien via GitHub Actions).
  */
 
 export type NewsArticle = {

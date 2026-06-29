@@ -1,8 +1,0 @@
-{
-  "buildCommand": "next build",
-  "outputDirectory": "out",
-  "framework": null,
-  "redirects": [
-    { "source": "/", "destination": "/fr", "permanent": false }
-  ]
-}

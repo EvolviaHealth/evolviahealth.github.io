@@ -8,10 +8,10 @@
  * « Activer la prise de rendez-vous automatique ») :
  *
  *   1. Dans next.config.mjs, commenter la ligne `output: 'export'`
- *      (le site passe d'export statique à rendu serveur sur Vercel).
+ *      (le site passe d'export statique à rendu serveur).
  *   2. Déplacer ce fichier vers : app/api/booking/route.ts
  *   3. Installer les dépendances :  npm i googleapis resend
- *   4. Renseigner les variables d'environnement (voir .env.example) sur Vercel.
+ *   4. Renseigner les variables d'environnement (voir .env.example) chez l'hébergeur.
  *   5. Déployer. Le formulaire poste déjà sur /api/booking.
  *
  * Sans activation, le formulaire bascule automatiquement sur un mailto pré-rempli
